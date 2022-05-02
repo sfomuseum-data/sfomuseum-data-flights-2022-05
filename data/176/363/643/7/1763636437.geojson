@@ -2,10 +2,12 @@
   "id": 1763636437,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-01",
     "date:inception_upper": "2022-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-01",
+    "edtf:cessation": "2022-05-02T01:32:00Z",
+    "edtf:inception": "2022-05-01T23:43:00Z",
     "flysfo:actual_timestamp": 1651447680,
     "flysfo:airline": "WS",
     "flysfo:date": "2022-05-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "WS",
+    "icao:aircraft": "B737",
     "icao:airline": "WJA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "CGWSN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21883630",
+      "swim:gufi": "KO77152100"
+    },
     "wof:country": "US",
     "wof:created": 1651508793,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763636437,
     "wof:involves": [
+      1159289869,
       102555307,
       102527513,
       1159285523,
       1745882373
     ],
-    "wof:lastmodified": 1651508793,
+    "wof:lastmodified": 1651508812,
     "wof:name": "WS1775 (SFO-YVR)",
     "wof:parent_id": 1745882373,
     "wof:placetype": "custom",

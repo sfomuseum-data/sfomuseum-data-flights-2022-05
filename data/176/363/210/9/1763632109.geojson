@@ -2,10 +2,12 @@
   "id": 1763632109,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-01",
+    "date:cessation_upper": "2022-05-01",
     "date:inception_lower": "2022-05-01",
     "date:inception_upper": "2022-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-01",
+    "edtf:cessation": "2022-05-01T10:54:37-07:00",
+    "edtf:inception": "2022-05-01T20:00:00Z",
     "flysfo:actual_timestamp": 1651453020,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526927,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N175DZ",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21869206",
+      "swim:gufi": "KT68160100"
+    },
     "wof:country": "US",
     "wof:created": 1651507659,
     "wof:geomhash": "ae92617dd2aca2afdb0c9096232ff0bb",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763632109,
     "wof:involves": [
+      1159289965,
       102527513,
       102526927,
       1159284261,
       1745882115
     ],
-    "wof:lastmodified": 1651507659,
+    "wof:lastmodified": 1651508814,
     "wof:name": "DL769 (ATL-SFO)",
     "wof:parent_id": 1745882115,
     "wof:placetype": "custom",

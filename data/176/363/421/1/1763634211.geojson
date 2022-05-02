@@ -2,10 +2,12 @@
   "id": 1763634211,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-01",
-    "date:inception_upper": "2022-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-01",
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
+    "date:inception_lower": "2022-05-02",
+    "date:inception_upper": "2022-05-02",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2022-05-01T19:17:25-07:00",
     "flysfo:actual_timestamp": 1651446000,
     "flysfo:airline": "NH",
     "flysfo:date": "2022-05-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.5860375,
     "geom:longitude": 8.702347499999995,
     "iata:airline": "NH",
+    "icao:aircraft": "B77W",
     "icao:airline": "ANA",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283875,
     "sfomuseum:arrival_id": 102541591,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "JA788A",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +92,10 @@
       102541591,
       102527513,
       1159283875,
-      1745882427
+      1745882427,
+      1159289993
     ],
-    "wof:lastmodified": 1651508214,
+    "wof:lastmodified": 1651508816,
     "wof:name": "NH107 (SFO-HND)",
     "wof:parent_id": 1745882427,
     "wof:placetype": "custom",

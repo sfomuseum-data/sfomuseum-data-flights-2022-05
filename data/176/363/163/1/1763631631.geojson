@@ -2,10 +2,12 @@
   "id": 1763631631,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-01",
+    "date:cessation_upper": "2022-05-01",
     "date:inception_lower": "2022-05-01",
     "date:inception_upper": "2022-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-01",
+    "edtf:cessation": "2022-05-01T15:56:50Z",
+    "edtf:inception": "2022-05-01T14:39:00Z",
     "flysfo:actual_timestamp": 1651421100,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N928VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21842249"
+    },
     "wof:country": "US",
     "wof:created": 1651507535,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1763631631,
     "wof:involves": [
+      1377564297,
       102527513,
       102532251,
       1159283813,
       1745882121
     ],
-    "wof:lastmodified": 1651507535,
+    "wof:lastmodified": 1651508813,
     "wof:name": "AS1414 (PDX-SFO)",
     "wof:parent_id": 1745882121,
     "wof:placetype": "custom",

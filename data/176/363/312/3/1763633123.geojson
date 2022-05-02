@@ -2,10 +2,12 @@
   "id": 1763633123,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-01",
+    "date:cessation_upper": "2022-05-01",
     "date:inception_lower": "2022-05-01",
     "date:inception_upper": "2022-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-01",
+    "edtf:cessation": "2022-05-01T02:28:40-07:00",
+    "edtf:inception": "2022-05-01T13:12:00Z",
     "flysfo:actual_timestamp": 1651422720,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.459714,
     "geom:longitude": -109.134272,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102524739,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N422UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21836031",
+      "swim:gufi": "KP39203100"
+    },
     "wof:country": "US",
     "wof:created": 1651507916,
     "wof:geomhash": "a4023a41644574291fc7580f5443d9f4",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763633123,
     "wof:involves": [
-      102527513,
       102524739,
       1159285413,
-      1745882309
+      1745882309,
+      1159292085,
+      102527513
     ],
-    "wof:lastmodified": 1651507916,
+    "wof:lastmodified": 1651508804,
     "wof:name": "UA1720 (OMA-SFO)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "custom",

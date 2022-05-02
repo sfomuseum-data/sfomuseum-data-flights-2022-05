@@ -2,10 +2,12 @@
   "id": 1763633047,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-01",
-    "date:inception_upper": "2022-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-01",
+    "date:cessation_lower": "2022-05-01",
+    "date:cessation_upper": "2022-05-01",
+    "date:inception_lower": "2022-05-02",
+    "date:inception_upper": "2022-05-02",
+    "edtf:cessation": "2022-05-01T14:31:11-07:00",
+    "edtf:inception": "2022-05-02T02:47:00Z",
     "flysfo:actual_timestamp": 1651466220,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N472UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS02129200"
+    },
     "wof:country": "US",
     "wof:created": 1651507896,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763633047,
     "wof:involves": [
+      1745882279,
+      1159292085,
       102527513,
       102533269,
-      1159285413,
-      1745882279
+      1159285413
     ],
-    "wof:lastmodified": 1651507896,
+    "wof:lastmodified": 1651508803,
     "wof:name": "UA1061 (SEA-SFO)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "custom",

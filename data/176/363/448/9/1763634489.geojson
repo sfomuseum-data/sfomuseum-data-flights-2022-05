@@ -2,10 +2,12 @@
   "id": 1763634489,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-01",
+    "date:cessation_upper": "2022-05-01",
     "date:inception_lower": "2022-05-01",
     "date:inception_upper": "2022-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-01",
+    "edtf:cessation": "2022-05-01T21:35:26Z",
+    "edtf:inception": "2022-05-01T18:20:00Z",
     "flysfo:actual_timestamp": 1651428360,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102536481,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N361VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21861412"
+    },
     "wof:country": "US",
     "wof:created": 1651508292,
     "wof:geomhash": "ae49e61cad725fa4577f8355bb7297ad",
@@ -84,9 +96,10 @@
       102536481,
       102527513,
       1159283813,
-      1745882099
+      1745882099,
+      1159292085
     ],
-    "wof:lastmodified": 1651508292,
+    "wof:lastmodified": 1651508808,
     "wof:name": "AS1272 (SFO-PVR)",
     "wof:parent_id": 1745882099,
     "wof:placetype": "custom",

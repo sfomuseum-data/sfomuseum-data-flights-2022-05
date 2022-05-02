@@ -2,10 +2,12 @@
   "id": 1763634553,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-01",
+    "date:cessation_upper": "2022-05-01",
     "date:inception_lower": "2022-05-01",
     "date:inception_upper": "2022-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-01",
+    "edtf:cessation": "2022-05-01T03:22:25Z",
+    "edtf:inception": "2022-05-01T01:58:00Z",
     "flysfo:actual_timestamp": 1651446000,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-01",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "21815785"
+    },
     "wof:country": "US",
     "wof:created": 1651508314,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -50,7 +55,7 @@
       1159283813,
       -1
     ],
-    "wof:lastmodified": 1651508314,
+    "wof:lastmodified": 1651508808,
     "wof:name": "AS321 (SFO-PDX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

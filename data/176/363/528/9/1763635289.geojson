@@ -2,10 +2,12 @@
   "id": 1763635289,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-01",
+    "date:cessation_upper": "2022-05-01",
     "date:inception_lower": "2022-05-01",
     "date:inception_upper": "2022-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-01",
+    "edtf:cessation": "2022-05-01T20:59:08Z",
+    "edtf:inception": "2022-05-01T02:25:55-07:00",
     "flysfo:actual_timestamp": 1651421700,
     "flysfo:airline": "B6",
     "flysfo:date": "2022-05-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.3291535,
     "geom:longitude": -104.6218995,
     "iata:airline": "B6",
+    "icao:aircraft": "A320",
     "icao:airline": "JBU",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102536223,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N636JB",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21850766",
+      "swim:gufi": "KO50711100"
+    },
     "wof:country": "US",
     "wof:created": 1651508507,
     "wof:geomhash": "d26f8a4a9d40aeb65e997520007d0d60",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763635289,
     "wof:involves": [
+      1745882143,
+      1159292085,
       102536223,
       102527513,
-      1159284583,
-      1745882143
+      1159284583
     ],
-    "wof:lastmodified": 1651508507,
+    "wof:lastmodified": 1651508809,
     "wof:name": "B61242 (SFO-CUN)",
     "wof:parent_id": 1745882143,
     "wof:placetype": "custom",
