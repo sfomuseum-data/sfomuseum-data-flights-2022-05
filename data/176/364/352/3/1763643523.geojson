@@ -2,10 +2,12 @@
   "id": 1763643523,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-02T20:46:00Z",
+    "edtf:inception": "2022-05-02T17:54:00Z",
     "flysfo:actual_timestamp": 1651512840,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.260825,
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N467UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21936445",
+      "swim:gufi": "KO54560200"
+    },
     "wof:country": "US",
     "wof:created": 1651594963,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763643523,
     "wof:involves": [
+      1159292085,
       102528541,
       102527513,
       1159285413,
       1745882315
     ],
-    "wof:lastmodified": 1651594963,
+    "wof:lastmodified": 1651595117,
     "wof:name": "UA1483 (SFO-DFW)",
     "wof:parent_id": 1745882315,
     "wof:placetype": "custom",

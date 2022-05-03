@@ -2,10 +2,12 @@
   "id": 1763639857,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-02",
-    "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "date:cessation_lower": "2022-05-03",
+    "date:cessation_upper": "2022-05-03",
+    "date:inception_lower": "2022-05-03",
+    "date:inception_upper": "2022-05-03",
+    "edtf:cessation": "2022-05-03T06:11:31Z",
+    "edtf:inception": "2022-05-03T02:40:00Z",
     "flysfo:actual_timestamp": 1651558500,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N374NW",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21895627",
+      "swim:gufi": "KP05340300"
+    },
     "wof:country": "US",
     "wof:created": 1651594021,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763639857,
     "wof:involves": [
+      1159292085,
       102527513,
       102531131,
       1159284261,
       1745882209
     ],
-    "wof:lastmodified": 1651594021,
+    "wof:lastmodified": 1651595125,
     "wof:name": "DL968 (MSP-SFO)",
     "wof:parent_id": 1745882209,
     "wof:placetype": "custom",

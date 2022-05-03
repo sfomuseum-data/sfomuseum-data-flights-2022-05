@@ -2,10 +2,12 @@
   "id": 1763640725,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-02T01:10:39-07:00",
+    "edtf:inception": "2022-05-02T14:10:00Z",
     "flysfo:actual_timestamp": 1651504560,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534161,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N435UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21917503",
+      "swim:gufi": "KL43111200"
+    },
     "wof:country": "US",
     "wof:created": 1651594261,
     "wof:geomhash": "01009f732d03a7803d3f7fd23cf321f4",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763640725,
     "wof:involves": [
+      1159292085,
       102527513,
       102534161,
       1159285413,
       1745882255
     ],
-    "wof:lastmodified": 1651594261,
+    "wof:lastmodified": 1651595121,
     "wof:name": "UA1175 (SNA-SFO)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",

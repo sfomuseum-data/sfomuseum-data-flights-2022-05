@@ -2,10 +2,12 @@
   "id": 1763639365,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-02T23:43:42Z",
+    "edtf:inception": "2022-05-02T20:40:00Z",
     "flysfo:actual_timestamp": 1651535460,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 30.389476000000002,
     "geom:longitude": -116.044202,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536441,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21952146"
+    },
     "wof:country": "US",
     "wof:created": 1651593896,
     "wof:geomhash": "57b2b594ef41523ab9fe7c26d147f9bd",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1763639365,
     "wof:involves": [
+      1159292085,
       102527513,
       102536441,
       1159283813,
       1745882373
     ],
-    "wof:lastmodified": 1651593896,
+    "wof:lastmodified": 1651595117,
     "wof:name": "AS1279 (SJD-SFO)",
     "wof:parent_id": 1745882373,
     "wof:placetype": "custom",

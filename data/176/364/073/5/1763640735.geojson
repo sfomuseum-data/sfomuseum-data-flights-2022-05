@@ -2,10 +2,12 @@
   "id": 1763640735,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-02T00:33:54-07:00",
+    "edtf:inception": "2022-05-02T13:26:00Z",
     "flysfo:actual_timestamp": 1651502220,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533927,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N33284",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21915040",
+      "swim:gufi": "KS41100200"
+    },
     "wof:country": "US",
     "wof:created": 1651594264,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -84,9 +97,10 @@
       102527513,
       102533927,
       1159285413,
-      1745882113
+      1745882113,
+      1159289871
     ],
-    "wof:lastmodified": 1651594264,
+    "wof:lastmodified": 1651595121,
     "wof:name": "UA1250 (EUG-SFO)",
     "wof:parent_id": 1745882113,
     "wof:placetype": "custom",

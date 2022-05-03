@@ -2,10 +2,12 @@
   "id": 1763641155,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-02",
-    "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
+    "date:inception_lower": "2022-05-03",
+    "date:inception_upper": "2022-05-03",
+    "edtf:cessation": "2022-05-02T13:15:41-07:00",
+    "edtf:inception": "2022-05-03T02:21:00Z",
     "flysfo:actual_timestamp": 1651548060,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N819UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21895448",
+      "swim:gufi": "KL84403200"
+    },
     "wof:country": "US",
     "wof:created": 1651594372,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -84,9 +98,10 @@
       102527513,
       102533795,
       1159285413,
-      1745882277
+      1745882277,
+      1159289407
     ],
-    "wof:lastmodified": 1651594372,
+    "wof:lastmodified": 1651595125,
     "wof:name": "UA739 (LAX-SFO)",
     "wof:parent_id": 1745882277,
     "wof:placetype": "custom",

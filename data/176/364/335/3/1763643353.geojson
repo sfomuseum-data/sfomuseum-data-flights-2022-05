@@ -2,10 +2,12 @@
   "id": 1763643353,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-02T23:58:58Z",
+    "edtf:inception": "2022-05-02T22:25:00Z",
     "flysfo:actual_timestamp": 1651529580,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N720WN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1763643353,
     "wof:involves": [
-      102526751,
-      102527513,
       1159285591,
-      1745882151
+      1745882151,
+      1159289869,
+      102526751,
+      102527513
     ],
-    "wof:lastmodified": 1651594921,
+    "wof:lastmodified": 1651595116,
     "wof:name": "WN1894 (SFO-PHX)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "custom",

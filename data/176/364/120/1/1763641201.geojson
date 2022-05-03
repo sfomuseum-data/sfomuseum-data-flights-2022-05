@@ -2,10 +2,12 @@
   "id": 1763641201,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-02T12:48:55-07:00",
+    "edtf:inception": "2022-05-02T15:57:00Z",
     "flysfo:actual_timestamp": 1651546560,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.781954,
     "geom:longitude": -57.5518295,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102549057,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2749U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21925640",
+      "swim:gufi": "KS02444300"
+    },
     "wof:country": "US",
     "wof:created": 1651594383,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763641201,
     "wof:involves": [
-      102527513,
-      102549057,
       1159285413,
-      1745882427
+      1745882427,
+      1159289993,
+      102527513,
+      102549057
     ],
-    "wof:lastmodified": 1651594383,
+    "wof:lastmodified": 1651595130,
     "wof:name": "UA927 (FRA-SFO)",
     "wof:parent_id": 1745882427,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763643273,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-03",
+    "date:cessation_upper": "2022-05-03",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-03T04:53:27Z",
+    "edtf:inception": "2022-05-02T23:45:00Z",
     "flysfo:actual_timestamp": 1651532400,
     "flysfo:airline": "SY",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.776171500000004,
     "geom:longitude": -97.52902549999999,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102532701,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N5261A",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "22034269"
+    },
     "wof:country": "US",
     "wof:created": 1651594899,
     "wof:geomhash": "0643ebfe04300154e23bafd48af1076e",
@@ -45,12 +56,12 @@
     ],
     "wof:id": 1763643273,
     "wof:involves": [
+      1159289871,
       102532701,
       102527513,
-      1159285227,
-      -1
+      1159285227
     ],
-    "wof:lastmodified": 1651594899,
+    "wof:lastmodified": 1651595116,
     "wof:name": "SY6584 (SFO-BDL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

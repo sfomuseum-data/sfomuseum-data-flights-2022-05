@@ -2,10 +2,12 @@
   "id": 1763643745,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-02T11:05:00Z",
+    "edtf:inception": "2022-05-02T07:34:00Z",
     "flysfo:actual_timestamp": 1651476060,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N77014",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21946415",
+      "swim:gufi": "KO13228200"
+    },
     "wof:country": "US",
     "wof:created": 1651595018,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -84,9 +93,10 @@
       102533631,
       102527513,
       1159285413,
-      1745882291
+      1745882291,
+      1159289985
     ],
-    "wof:lastmodified": 1651595018,
+    "wof:lastmodified": 1651595121,
     "wof:name": "UA3026 (SFO-ORD)",
     "wof:parent_id": 1745882291,
     "wof:placetype": "custom",

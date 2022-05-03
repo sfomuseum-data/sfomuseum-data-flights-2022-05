@@ -2,10 +2,12 @@
   "id": 1763641775,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-03",
+    "date:cessation_upper": "2022-05-03",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-03T01:06:02Z",
+    "edtf:inception": "2022-05-02T20:12:00Z",
     "flysfo:actual_timestamp": 1651521120,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-05-02",
@@ -21,6 +23,7 @@
     "geom:latitude": 41.539997,
     "geom:longitude": -98.057846,
     "iata:airline": "AC",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
@@ -34,6 +37,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CGUPK",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21947882"
+    },
     "wof:country": "US",
     "wof:created": 1651594525,
     "wof:geomhash": "60b8ec845b4af47518c8aaafc3d98633",
@@ -86,7 +98,7 @@
       1159283597,
       1745882419
     ],
-    "wof:lastmodified": 1651594525,
+    "wof:lastmodified": 1651595127,
     "wof:name": "AC760 (SFO-YUL)",
     "wof:parent_id": 1745882419,
     "wof:placetype": "custom",

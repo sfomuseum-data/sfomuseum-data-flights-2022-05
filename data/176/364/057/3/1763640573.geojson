@@ -2,10 +2,12 @@
   "id": 1763640573,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-02T06:50:01Z",
+    "edtf:inception": "2022-05-02T04:43:00Z",
     "flysfo:actual_timestamp": 1651560060,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-05-02",
@@ -48,6 +50,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21897973"
+    },
     "wof:country": "US",
     "wof:created": 1651594223,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -86,7 +91,7 @@
       1159285591,
       1745882151
     ],
-    "wof:lastmodified": 1651594223,
+    "wof:lastmodified": 1651595119,
     "wof:name": "WN193 (DEN-SFO)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "custom",

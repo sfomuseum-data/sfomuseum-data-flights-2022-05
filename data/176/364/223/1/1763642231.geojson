@@ -2,10 +2,12 @@
   "id": 1763642231,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-02",
-    "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "date:cessation_lower": "2022-05-03",
+    "date:cessation_upper": "2022-05-03",
+    "date:inception_lower": "2022-05-03",
+    "date:inception_upper": "2022-05-03",
+    "edtf:cessation": "2022-05-03T03:04:04Z",
+    "edtf:inception": "2022-05-03T02:08:00Z",
     "flysfo:actual_timestamp": 1651541880,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N642VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1763642231,
     "wof:involves": [
-      102533795,
-      102527513,
       1159283813,
-      1745882105
+      1745882105,
+      1159292085,
+      102533795,
+      102527513
     ],
-    "wof:lastmodified": 1651594638,
+    "wof:lastmodified": 1651595131,
     "wof:name": "AS213 (SFO-LAX)",
     "wof:parent_id": 1745882105,
     "wof:placetype": "custom",

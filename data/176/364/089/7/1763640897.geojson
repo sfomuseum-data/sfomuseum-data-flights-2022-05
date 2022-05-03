@@ -2,10 +2,12 @@
   "id": 1763640897,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-02T05:04:39-07:00",
+    "edtf:inception": "2022-05-02T15:25:00Z",
     "flysfo:actual_timestamp": 1651518600,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534097,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2135U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21921480",
+      "swim:gufi": "KH46030200"
+    },
     "wof:country": "US",
     "wof:created": 1651594306,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763640897,
     "wof:involves": [
+      1159289993,
       102527513,
       102534097,
       1159285413,
       1745882297
     ],
-    "wof:lastmodified": 1651594306,
+    "wof:lastmodified": 1651595124,
     "wof:name": "UA2432 (IAH-SFO)",
     "wof:parent_id": 1745882297,
     "wof:placetype": "custom",

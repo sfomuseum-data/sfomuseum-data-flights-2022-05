@@ -2,10 +2,12 @@
   "id": 1763642247,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-02T15:14:00Z",
+    "edtf:inception": "2022-05-02T13:48:00Z",
     "flysfo:actual_timestamp": 1651498380,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N586AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21917243"
+    },
     "wof:country": "US",
     "wof:created": 1651594642,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763642247,
     "wof:involves": [
+      1159289871,
       102532251,
       102527513,
       1159283813,
       1745882117
     ],
-    "wof:lastmodified": 1651594642,
+    "wof:lastmodified": 1651595127,
     "wof:name": "AS270 (SFO-PDX)",
     "wof:parent_id": 1745882117,
     "wof:placetype": "custom",

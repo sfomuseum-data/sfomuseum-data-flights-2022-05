@@ -2,10 +2,12 @@
   "id": 1763642561,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-03",
+    "date:cessation_upper": "2022-05-03",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-03T03:44:33Z",
+    "edtf:inception": "2022-05-02T12:24:41-07:00",
     "flysfo:actual_timestamp": 1651543680,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-02",
@@ -21,6 +23,7 @@
     "geom:latitude": 40.591019,
     "geom:longitude": -119.2977885,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
@@ -34,6 +37,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N305DU",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21894897",
+      "swim:gufi": "KO05166300"
+    },
     "wof:country": "US",
     "wof:created": 1651594722,
     "wof:geomhash": "5c4ab4afb4473393075e7e0145a9edb2",
@@ -86,7 +99,7 @@
       1159284261,
       1745882201
     ],
-    "wof:lastmodified": 1651594722,
+    "wof:lastmodified": 1651595131,
     "wof:name": "DL1551 (SFO-BOI)",
     "wof:parent_id": 1745882201,
     "wof:placetype": "custom",

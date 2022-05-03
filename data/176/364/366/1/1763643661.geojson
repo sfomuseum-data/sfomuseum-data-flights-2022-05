@@ -2,10 +2,12 @@
   "id": 1763643661,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-02T20:40:00Z",
+    "edtf:inception": "2022-05-02T15:52:00Z",
     "flysfo:actual_timestamp": 1651505400,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533657,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37510",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21925857",
+      "swim:gufi": "KO48228200"
+    },
     "wof:country": "US",
     "wof:created": 1651594997,
     "wof:geomhash": "33c9625a4901edf29154e5ec4b308b8b",
@@ -84,9 +98,10 @@
       102533657,
       102527513,
       1159285413,
-      1745882291
+      1745882291,
+      1528104577
     ],
-    "wof:lastmodified": 1651594997,
+    "wof:lastmodified": 1651595119,
     "wof:name": "UA2332 (SFO-MCO)",
     "wof:parent_id": 1745882291,
     "wof:placetype": "custom",

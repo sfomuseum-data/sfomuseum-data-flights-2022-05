@@ -2,10 +2,12 @@
   "id": 1763643349,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-02",
+    "date:cessation_upper": "2022-05-02",
     "date:inception_lower": "2022-05-02",
     "date:inception_upper": "2022-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-02",
+    "edtf:cessation": "2022-05-02T15:21:00Z",
+    "edtf:inception": "2022-05-02T13:15:00Z",
     "flysfo:actual_timestamp": 1651496760,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N7856A",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "21912789"
+    },
     "wof:country": "US",
     "wof:created": 1651594920,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1763643349,
     "wof:involves": [
+      1745882157,
+      1159289869,
       102531189,
       102527513,
-      1159285591,
-      1745882157
+      1159285591
     ],
-    "wof:lastmodified": 1651594920,
+    "wof:lastmodified": 1651595116,
     "wof:name": "WN134 (SFO-DEN)",
     "wof:parent_id": 1745882157,
     "wof:placetype": "custom",
