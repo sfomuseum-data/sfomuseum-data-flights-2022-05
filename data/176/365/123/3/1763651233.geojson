@@ -2,10 +2,12 @@
   "id": 1763651233,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-03",
+    "date:cessation_upper": "2022-05-03",
     "date:inception_lower": "2022-05-03",
     "date:inception_upper": "2022-05-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-03",
+    "edtf:cessation": "2022-05-03T18:56:23Z",
+    "edtf:inception": "2022-05-03T00:15:20-07:00",
     "flysfo:actual_timestamp": 1651586100,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533657,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N556AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22000556"
+    },
     "wof:country": "US",
     "wof:created": 1651681215,
     "wof:geomhash": "33c9625a4901edf29154e5ec4b308b8b",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763651233,
     "wof:involves": [
-      102533657,
-      102527513,
       1159283813,
-      1745882117
+      1745882117,
+      1159289871,
+      102533657,
+      102527513
     ],
-    "wof:lastmodified": 1651681215,
+    "wof:lastmodified": 1651681746,
     "wof:name": "AS40 (SFO-MCO)",
     "wof:parent_id": 1745882117,
     "wof:placetype": "custom",

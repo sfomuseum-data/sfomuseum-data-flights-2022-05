@@ -2,10 +2,12 @@
   "id": 1763651435,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-04",
+    "date:cessation_upper": "2022-05-04",
     "date:inception_lower": "2022-05-03",
     "date:inception_upper": "2022-05-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-03",
+    "edtf:cessation": "2022-05-04T01:44:00Z",
+    "edtf:inception": "2022-05-03T21:45:00Z",
     "flysfo:actual_timestamp": 1651613400,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102525635,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N806DN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22039497",
+      "swim:gufi": "KO74467300"
+    },
     "wof:country": "US",
     "wof:created": 1651681266,
     "wof:geomhash": "9151bfe07cf224e1ff61a7f7b8c30671",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763651435,
     "wof:involves": [
+      1377564285,
       102525635,
       102527513,
       1159284261,
       1745882205
     ],
-    "wof:lastmodified": 1651681266,
+    "wof:lastmodified": 1651681746,
     "wof:name": "DL1036 (SFO-DTW)",
     "wof:parent_id": 1745882205,
     "wof:placetype": "custom",

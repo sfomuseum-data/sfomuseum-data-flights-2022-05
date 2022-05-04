@@ -2,10 +2,12 @@
   "id": 1763649771,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-03",
+    "date:cessation_upper": "2022-05-03",
     "date:inception_lower": "2022-05-03",
     "date:inception_upper": "2022-05-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-03",
+    "edtf:cessation": "2022-05-03T02:00:33-07:00",
+    "edtf:inception": "2022-05-03T14:53:00Z",
     "flysfo:actual_timestamp": 1651593900,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N819UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22003672",
+      "swim:gufi": "KL43878300"
+    },
     "wof:country": "US",
     "wof:created": 1651680840,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763649771,
     "wof:involves": [
+      1159289407,
       102527513,
       102528997,
       1159285413,
       1745882249
     ],
-    "wof:lastmodified": 1651680840,
+    "wof:lastmodified": 1651681758,
     "wof:name": "UA2480 (SAN-SFO)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",

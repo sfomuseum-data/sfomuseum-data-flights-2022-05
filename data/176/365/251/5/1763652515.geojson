@@ -2,10 +2,12 @@
   "id": 1763652515,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-04",
+    "date:cessation_upper": "2022-05-04",
     "date:inception_lower": "2022-05-03",
     "date:inception_upper": "2022-05-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-03",
+    "edtf:cessation": "2022-05-04T07:13:57Z",
+    "edtf:inception": "2022-05-03T06:46:05-07:00",
     "flysfo:actual_timestamp": 1651609500,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.9853355,
     "geom:longitude": -55.2970675,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102549067,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76021",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22034637",
+      "swim:gufi": "KO63366300"
+    },
     "wof:country": "US",
     "wof:created": 1651681613,
     "wof:geomhash": "d9a5d9d800d6bc92413ff3768040f8da",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763652515,
     "wof:involves": [
+      1159289985,
       102549067,
       102527513,
       1159285413,
       1745882405
     ],
-    "wof:lastmodified": 1651681613,
+    "wof:lastmodified": 1651681752,
     "wof:name": "UA194 (SFO-MUC)",
     "wof:parent_id": 1745882405,
     "wof:placetype": "custom",
