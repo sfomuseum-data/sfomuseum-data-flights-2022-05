@@ -1,0 +1,75 @@
+{
+  "id": 1763648783,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-05-03",
+    "date:inception_upper": "2022-05-03",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-05-03",
+    "flysfo:actual_timestamp": 1651618800,
+    "flysfo:airline": "LY",
+    "flysfo:base_airline": "AS",
+    "flysfo:base_flight_number": "189",
+    "flysfo:date": "2022-05-03",
+    "flysfo:estimated_timestamp": 1651603140,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "LY9451",
+    "flysfo:gate": "",
+    "flysfo:journey": "EWR-SFO",
+    "flysfo:scheduled_timestamp": 1651603140,
+    "flysfo:timestamp": 1651618800,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-74.177526,40.691243",
+    "geom:latitude": 39.1546165,
+    "geom:longitude": -98.2742345,
+    "iata:airline": "LY",
+    "iata:base_airline": "AS",
+    "icao:airline": "ELY",
+    "icao:base_airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284327,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:base_flight_id": "20220503-A-ASA-189",
+    "sfomuseum:departure_id": 102530049,
+    "sfomuseum:flight_id": "20220503-A-ELY-9451",
+    "sfomuseum:flight_number": [
+      "ELY9451",
+      "LY9451"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1651680567,
+    "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1763648783
+      }
+    ],
+    "wof:id": 1763648783,
+    "wof:involves": [
+      102527513,
+      102530049,
+      1159284327,
+      -1,
+      1159283813
+    ],
+    "wof:lastmodified": 1651680567,
+    "wof:name": "LY9451 (EWR-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -74.177526,
+    40.691243
+  ],
+  "geometry": {"coordinates":[[-74.177526,40.691243],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
