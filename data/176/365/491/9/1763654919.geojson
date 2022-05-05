@@ -1,0 +1,69 @@
+{
+  "id": 1763654919,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-05-04",
+    "date:inception_upper": "2022-05-04",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-05-04",
+    "flysfo:actual_timestamp": 1651705200,
+    "flysfo:airline": "AA",
+    "flysfo:date": "2022-05-04",
+    "flysfo:estimated_timestamp": 1651743480,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AA2897",
+    "flysfo:gate": "",
+    "flysfo:journey": "BFL-SFO",
+    "flysfo:scheduled_timestamp": 1651740480,
+    "flysfo:timestamp": 1651743480,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,35.425802,-119.047271,37.617990",
+    "geom:latitude": 36.521896,
+    "geom:longitude": -120.70910699999999,
+    "iata:airline": "AA",
+    "icao:airline": "AAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283849,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102527035,
+    "sfomuseum:flight_id": "20220504-A-AAL-2897",
+    "sfomuseum:flight_number": [
+      "AAL2897",
+      "AA2897"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1651766499,
+    "wof:geomhash": "3b3e9c3ec34a983f815de975c27882c1",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1763654919
+      }
+    ],
+    "wof:id": 1763654919,
+    "wof:involves": [
+      102527513,
+      102527035,
+      1159283849,
+      -1
+    ],
+    "wof:lastmodified": 1651766499,
+    "wof:name": "AA2897 (BFL-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    35.425802,
+    -119.047271,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-119.047271,35.425802],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

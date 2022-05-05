@@ -1,0 +1,69 @@
+{
+  "id": 1763658127,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-05-04",
+    "date:inception_upper": "2022-05-04",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-05-04",
+    "flysfo:actual_timestamp": 1651724700,
+    "flysfo:airline": "AF",
+    "flysfo:date": "2022-05-04",
+    "flysfo:estimated_timestamp": 1651726800,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AF85",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-SFO",
+    "flysfo:scheduled_timestamp": 1651724580,
+    "flysfo:timestamp": 1651726800,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-122.370943,37.617990",
+    "geom:latitude": 37.61799,
+    "geom:longitude": -122.370943,
+    "iata:airline": "AF",
+    "icao:airline": "AFR",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283627,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20220504-D-AFR-85",
+    "sfomuseum:flight_number": [
+      "AFR85",
+      "AF85"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1651767406,
+    "wof:geomhash": "f780d59ec1f4d1acb53d14db45159ea5",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1763658127
+      }
+    ],
+    "wof:id": 1763658127,
+    "wof:involves": [
+      102527513,
+      102527513,
+      1159283627,
+      -1
+    ],
+    "wof:lastmodified": 1651767406,
+    "wof:name": "AF85 (SFO-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -122.370943,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
