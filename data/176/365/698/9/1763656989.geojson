@@ -2,10 +2,12 @@
   "id": 1763656989,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-04",
+    "date:cessation_upper": "2022-05-04",
     "date:inception_lower": "2022-05-04",
     "date:inception_upper": "2022-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-04",
+    "edtf:cessation": "2022-05-04T21:03:39Z",
+    "edtf:inception": "2022-05-04T09:09:00Z",
     "flysfo:actual_timestamp": 1651705200,
     "flysfo:airline": "TP",
     "flysfo:date": "2022-05-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.195417,
     "geom:longitude": -65.753267,
     "iata:airline": "TP",
+    "icao:aircraft": "A339",
     "icao:airline": "TAP",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1393786509,
     "sfomuseum:airline_id": 1159285271,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102535643,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CSTUL",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22067261"
+    },
     "wof:country": "US",
     "wof:created": 1651767119,
     "wof:geomhash": "d927879de9f350bec45f63af3f2c3973",
@@ -84,9 +97,10 @@
       102527513,
       102535643,
       1159285271,
-      1745882411
+      1745882411,
+      1393786509
     ],
-    "wof:lastmodified": 1651767119,
+    "wof:lastmodified": 1651768089,
     "wof:name": "TP237 (LIS-SFO)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "custom",

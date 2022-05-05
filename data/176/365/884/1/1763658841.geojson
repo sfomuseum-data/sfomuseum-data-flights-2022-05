@@ -2,10 +2,12 @@
   "id": 1763658841,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-04",
+    "date:cessation_upper": "2022-05-04",
     "date:inception_lower": "2022-05-04",
     "date:inception_upper": "2022-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-04",
+    "edtf:cessation": "2022-05-04T22:16:00Z",
+    "edtf:inception": "2022-05-04T06:53:39-07:00",
     "flysfo:actual_timestamp": 1651696440,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N385DN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22122809",
+      "swim:gufi": "KO71167400"
+    },
     "wof:country": "US",
     "wof:created": 1651767623,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763658841,
     "wof:involves": [
-      102527363,
-      102527513,
       1159284261,
-      1745882211
+      1745882211,
+      1159289871,
+      102527363,
+      102527513
     ],
-    "wof:lastmodified": 1651767623,
+    "wof:lastmodified": 1651768092,
     "wof:name": "DL1317 (SFO-SLC)",
     "wof:parent_id": 1745882211,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763660273,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-04",
-    "date:inception_upper": "2022-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-04",
+    "date:cessation_lower": "2022-05-05",
+    "date:cessation_upper": "2022-05-05",
+    "date:inception_lower": "2022-05-05",
+    "date:inception_upper": "2022-05-05",
+    "edtf:cessation": "2022-05-05T06:09:00Z",
+    "edtf:inception": "2022-05-05T04:59:00Z",
     "flysfo:actual_timestamp": 1651726080,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N882UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22063430",
+      "swim:gufi": "KO06606500"
+    },
     "wof:country": "US",
     "wof:created": 1651768030,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763660273,
     "wof:involves": [
+      1159289407,
       102528997,
       102527513,
       1159285413,
       1745882283
     ],
-    "wof:lastmodified": 1651768030,
+    "wof:lastmodified": 1651768074,
     "wof:name": "UA798 (SFO-SAN)",
     "wof:parent_id": 1745882283,
     "wof:placetype": "custom",

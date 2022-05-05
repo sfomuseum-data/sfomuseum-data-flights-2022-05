@@ -2,10 +2,12 @@
   "id": 1763659295,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-05",
+    "date:cessation_upper": "2022-05-05",
     "date:inception_lower": "2022-05-04",
     "date:inception_upper": "2022-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-04",
+    "edtf:cessation": "2022-05-05T00:13:30Z",
+    "edtf:inception": "2022-05-04T19:22:00Z",
     "flysfo:actual_timestamp": 1651691700,
     "flysfo:airline": "B6",
     "flysfo:date": "2022-05-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.846425,
     "geom:longitude": -101.2547305,
     "iata:airline": "B6",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102530841,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N937JB",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22113787",
+      "swim:gufi": "KO61462400"
+    },
     "wof:country": "US",
     "wof:created": 1651767737,
     "wof:geomhash": "2155b19e54308f477f2a379762b2f6c8",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763659295,
     "wof:involves": [
-      102530841,
       102527513,
       1159284583,
-      1745882143
+      1745882143,
+      1159289411,
+      102530841
     ],
-    "wof:lastmodified": 1651767737,
+    "wof:lastmodified": 1651768083,
     "wof:name": "B6578 (SFO-FLL)",
     "wof:parent_id": 1745882143,
     "wof:placetype": "custom",

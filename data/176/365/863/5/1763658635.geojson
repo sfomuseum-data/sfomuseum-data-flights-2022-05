@@ -2,10 +2,12 @@
   "id": 1763658635,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-05",
+    "date:cessation_upper": "2022-05-05",
     "date:inception_lower": "2022-05-04",
     "date:inception_upper": "2022-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-04",
+    "edtf:cessation": "2022-05-05T00:05:46Z",
+    "edtf:inception": "2022-05-04T18:54:00Z",
     "flysfo:actual_timestamp": 1651689180,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532929,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N565AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22111761"
+    },
     "wof:country": "US",
     "wof:created": 1651767572,
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763658635,
     "wof:involves": [
+      1745882119,
+      1159289871,
       102532929,
       102527513,
-      1159283813,
-      1745882119
+      1159283813
     ],
-    "wof:lastmodified": 1651767572,
+    "wof:lastmodified": 1651768081,
     "wof:name": "AS743 (SFO-OGG)",
     "wof:parent_id": 1745882119,
     "wof:placetype": "custom",

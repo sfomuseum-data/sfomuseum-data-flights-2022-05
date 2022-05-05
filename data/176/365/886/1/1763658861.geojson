@@ -2,10 +2,12 @@
   "id": 1763658861,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-05",
+    "date:cessation_upper": "2022-05-05",
     "date:inception_lower": "2022-05-04",
     "date:inception_upper": "2022-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-04",
+    "edtf:cessation": "2022-05-05T10:14:00Z",
+    "edtf:inception": "2022-05-04T15:24:30-07:00",
     "flysfo:actual_timestamp": 1651727580,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N195DN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO15967500"
+    },
     "wof:country": "US",
     "wof:created": 1651767628,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763658861,
     "wof:involves": [
+      1159289965,
       102534365,
       102527513,
       1159284261,
       1745882213
     ],
-    "wof:lastmodified": 1651767628,
+    "wof:lastmodified": 1651768092,
     "wof:name": "DL300 (SFO-JFK)",
     "wof:parent_id": 1745882213,
     "wof:placetype": "custom",

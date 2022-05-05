@@ -2,10 +2,12 @@
   "id": 1763660009,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-05",
+    "date:cessation_upper": "2022-05-05",
     "date:inception_lower": "2022-05-04",
     "date:inception_upper": "2022-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-04",
+    "edtf:cessation": "2022-05-05T04:17:00Z",
+    "edtf:inception": "2022-05-04T12:45:21-07:00",
     "flysfo:actual_timestamp": 1651717740,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N814UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22059096",
+      "swim:gufi": "KO04463500"
+    },
     "wof:country": "US",
     "wof:created": 1651767963,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763660009,
     "wof:involves": [
+      1745882249,
+      1159289407,
       102533269,
       102527513,
-      1159285413,
-      1745882249
+      1159285413
     ],
-    "wof:lastmodified": 1651767963,
+    "wof:lastmodified": 1651768076,
     "wof:name": "UA2336 (SFO-SEA)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",

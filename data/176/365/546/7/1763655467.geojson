@@ -2,10 +2,12 @@
   "id": 1763655467,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-04",
+    "date:cessation_upper": "2022-05-04",
     "date:inception_lower": "2022-05-04",
     "date:inception_upper": "2022-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-04",
+    "edtf:cessation": "2022-05-04T05:42:50-07:00",
+    "edtf:inception": "2022-05-04T11:17:45Z",
     "flysfo:actual_timestamp": 1651705200,
     "flysfo:airline": "NH",
     "flysfo:date": "2022-05-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.686867,
     "geom:longitude": 9.012156999999995,
     "iata:airline": "NH",
+    "icao:aircraft": "B77W",
     "icao:airline": "ANA",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283875,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541685,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "JA798A",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22158223"
+    },
     "wof:country": "US",
     "wof:created": 1651766716,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763655467,
     "wof:involves": [
+      1159289993,
       102527513,
       102541685,
       1159283875,
       1745882417
     ],
-    "wof:lastmodified": 1651766716,
+    "wof:lastmodified": 1651768085,
     "wof:name": "NH9644 (NRT-SFO)",
     "wof:parent_id": 1745882417,
     "wof:placetype": "custom",

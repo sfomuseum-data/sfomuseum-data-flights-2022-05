@@ -2,10 +2,12 @@
   "id": 1763658061,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-04",
+    "date:cessation_upper": "2022-05-04",
     "date:inception_lower": "2022-05-04",
     "date:inception_upper": "2022-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-04",
+    "edtf:cessation": "2022-05-04T21:45:13Z",
+    "edtf:inception": "2022-05-04T19:55:00Z",
     "flysfo:actual_timestamp": 1651692840,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-05-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CFTJV",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1763658061,
     "wof:involves": [
-      102555307,
       102527513,
       1159283597,
-      1745882409
+      1745882409,
+      1528104575,
+      102555307
     ],
-    "wof:lastmodified": 1651767389,
+    "wof:lastmodified": 1651768091,
     "wof:name": "AC565 (SFO-YVR)",
     "wof:parent_id": 1745882409,
     "wof:placetype": "custom",

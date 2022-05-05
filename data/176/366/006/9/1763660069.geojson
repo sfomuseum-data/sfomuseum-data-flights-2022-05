@@ -2,10 +2,12 @@
   "id": 1763660069,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-04",
-    "date:inception_upper": "2022-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-04",
+    "date:cessation_lower": "2022-05-05",
+    "date:cessation_upper": "2022-05-05",
+    "date:inception_lower": "2022-05-05",
+    "date:inception_upper": "2022-05-05",
+    "edtf:cessation": "2022-05-05T12:02:00Z",
+    "edtf:inception": "2022-05-04T17:15:49-07:00",
     "flysfo:actual_timestamp": 1651733640,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529403,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N26215",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO12905500"
+    },
     "wof:country": "US",
     "wof:created": 1651767978,
     "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763660069,
     "wof:involves": [
+      1159289871,
       102529403,
       102527513,
       1159285413,
       1745882313
     ],
-    "wof:lastmodified": 1651767978,
+    "wof:lastmodified": 1651768073,
     "wof:name": "UA2630 (SFO-PHL)",
     "wof:parent_id": 1745882313,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763660083,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-04",
+    "date:cessation_upper": "2022-05-04",
     "date:inception_lower": "2022-05-04",
     "date:inception_upper": "2022-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-04",
+    "edtf:cessation": "2022-05-04T16:48:00Z",
+    "edtf:inception": "2022-05-04T01:45:17-07:00",
     "flysfo:actual_timestamp": 1651678260,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7213045,
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533591,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N472UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22094549",
+      "swim:gufi": "KO45475400"
+    },
     "wof:country": "US",
     "wof:created": 1651767982,
     "wof:geomhash": "e84c3ec216fbaf9440bbf99d412a1253",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763660083,
     "wof:involves": [
+      1159292085,
       102533591,
       102527513,
       1159285413,
       1745882319
     ],
-    "wof:lastmodified": 1651767982,
+    "wof:lastmodified": 1651768073,
     "wof:name": "UA343 (SFO-PSP)",
     "wof:parent_id": 1745882319,
     "wof:placetype": "custom",
