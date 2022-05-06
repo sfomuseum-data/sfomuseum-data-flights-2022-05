@@ -2,10 +2,12 @@
   "id": 1763665305,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-05",
+    "date:cessation_upper": "2022-05-05",
     "date:inception_lower": "2022-05-05",
     "date:inception_upper": "2022-05-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-05",
+    "edtf:cessation": "2022-05-05T13:59:24Z",
+    "edtf:inception": "2022-05-05T13:03:00Z",
     "flysfo:actual_timestamp": 1651759320,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533575,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N14235",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22170578",
+      "swim:gufi": "KL38702500"
+    },
     "wof:country": "US",
     "wof:created": 1651853629,
     "wof:geomhash": "094b2380067f0814bdd38962ab53e3d3",
@@ -84,9 +97,10 @@
       102527513,
       102533575,
       1159285413,
-      1745882111
+      1745882111,
+      1159289871
     ],
-    "wof:lastmodified": 1651853629,
+    "wof:lastmodified": 1651854553,
     "wof:name": "UA2682 (ONT-SFO)",
     "wof:parent_id": 1745882111,
     "wof:placetype": "custom",

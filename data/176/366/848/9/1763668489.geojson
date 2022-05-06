@@ -2,10 +2,12 @@
   "id": 1763668489,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-05",
+    "date:cessation_upper": "2022-05-05",
     "date:inception_lower": "2022-05-05",
     "date:inception_upper": "2022-05-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-05",
+    "edtf:cessation": "2022-05-05T20:18:00Z",
+    "edtf:inception": "2022-05-05T04:25:04-07:00",
     "flysfo:actual_timestamp": 1651773780,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.333376,
     "geom:longitude": -114.4957645,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529173,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N486UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22200764",
+      "swim:gufi": "KO57097500"
+    },
     "wof:country": "US",
     "wof:created": 1651854491,
     "wof:geomhash": "029159a11f35cb7f92e728b838da58ba",
@@ -84,9 +98,10 @@
       102529173,
       102527513,
       1159285413,
-      1745882249
+      1745882249,
+      1159292085
     ],
-    "wof:lastmodified": 1651854491,
+    "wof:lastmodified": 1651854561,
     "wof:name": "UA731 (SFO-ABQ)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",

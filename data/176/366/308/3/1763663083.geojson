@@ -2,10 +2,12 @@
   "id": 1763663083,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-05",
+    "date:cessation_upper": "2022-05-05",
     "date:inception_lower": "2022-05-05",
     "date:inception_upper": "2022-05-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-05",
+    "edtf:cessation": "2022-05-05T15:15:19-07:00",
+    "edtf:inception": "2022-05-05T23:19:00Z",
     "flysfo:actual_timestamp": 1651814400,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-05-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.539997,
     "geom:longitude": -98.057846,
     "iata:airline": "AC",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102554351,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGEIV",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22227201"
+    },
     "wof:country": "US",
     "wof:created": 1651853040,
     "wof:geomhash": "d6fced31e2f30d79d54c9b38b6916cc7",
@@ -84,9 +97,10 @@
       102527513,
       102554351,
       1159283597,
-      1745882411
+      1745882411,
+      1528104575
     ],
-    "wof:lastmodified": 1651853040,
+    "wof:lastmodified": 1651854563,
     "wof:name": "AC763 (YUL-SFO)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "custom",

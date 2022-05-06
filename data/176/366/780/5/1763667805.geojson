@@ -2,10 +2,12 @@
   "id": 1763667805,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-05",
-    "date:inception_upper": "2022-05-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-05",
+    "date:cessation_lower": "2022-05-06",
+    "date:cessation_upper": "2022-05-06",
+    "date:inception_lower": "2022-05-06",
+    "date:inception_upper": "2022-05-06",
+    "edtf:cessation": "2022-05-06T03:55:39Z",
+    "edtf:inception": "2022-05-06T00:50:00Z",
     "flysfo:actual_timestamp": 1651797420,
     "flysfo:airline": "SY",
     "flysfo:date": "2022-05-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.613288,
     "lbl:longitude": -122.389396,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N822SY",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22141567"
+    },
     "wof:country": "US",
     "wof:created": 1651854319,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763667805,
     "wof:involves": [
+      1159289871,
       102531131,
       102527513,
       1159285227,
       1745882375
     ],
-    "wof:lastmodified": 1651854319,
+    "wof:lastmodified": 1651854559,
     "wof:name": "SY396 (SFO-MSP)",
     "wof:parent_id": 1745882375,
     "wof:placetype": "custom",

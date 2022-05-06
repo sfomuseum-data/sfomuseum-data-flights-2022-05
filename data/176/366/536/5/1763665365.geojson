@@ -2,10 +2,12 @@
   "id": 1763665365,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-05",
+    "date:cessation_upper": "2022-05-05",
     "date:inception_lower": "2022-05-05",
     "date:inception_upper": "2022-05-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-05",
+    "edtf:cessation": "2022-05-05T04:55:22-07:00",
+    "edtf:inception": "2022-05-05T17:49:00Z",
     "flysfo:actual_timestamp": 1651777080,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27509",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22196393",
+      "swim:gufi": "KL56797500"
+    },
     "wof:country": "US",
     "wof:created": 1651853645,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -84,9 +98,10 @@
       102527513,
       102528997,
       1159285413,
-      1745882319
+      1745882319,
+      1528104577
     ],
-    "wof:lastmodified": 1651853645,
+    "wof:lastmodified": 1651854554,
     "wof:name": "UA512 (SAN-SFO)",
     "wof:parent_id": 1745882319,
     "wof:placetype": "custom",

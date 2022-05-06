@@ -2,10 +2,12 @@
   "id": 1763663587,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-05",
+    "date:cessation_upper": "2022-05-05",
     "date:inception_lower": "2022-05-05",
     "date:inception_upper": "2022-05-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-05",
+    "edtf:cessation": "2022-05-05T13:03:24-07:00",
+    "edtf:inception": "2022-05-05T21:40:00Z",
     "flysfo:actual_timestamp": 1651806480,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.234314499999996,
     "geom:longitude": -99.70629299999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616987,
     "lbl:longitude": -122.382479,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 1746879047,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N924VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22219069"
+    },
     "wof:country": "US",
     "wof:created": 1651853173,
     "wof:geomhash": "cfff966b0a5de3ca50080923c4337cfe",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763663587,
     "wof:involves": [
+      1377564297,
       102527513,
       1746879047,
       1159283813,
       1745882089
     ],
-    "wof:lastmodified": 1651853173,
+    "wof:lastmodified": 1651854563,
     "wof:name": "AS1002 (DCA-SFO)",
     "wof:parent_id": 1745882089,
     "wof:placetype": "custom",

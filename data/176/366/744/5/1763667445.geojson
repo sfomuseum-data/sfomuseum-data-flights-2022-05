@@ -2,10 +2,12 @@
   "id": 1763667445,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-06",
+    "date:cessation_upper": "2022-05-06",
     "date:inception_lower": "2022-05-05",
     "date:inception_upper": "2022-05-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-05",
+    "edtf:cessation": "2022-05-06T02:15:00Z",
+    "edtf:inception": "2022-05-05T21:20:00Z",
     "flysfo:actual_timestamp": 1651785060,
     "flysfo:airline": "B6",
     "flysfo:date": "2022-05-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "B6",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N961JT",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22218555",
+      "swim:gufi": "KO70252500"
+    },
     "wof:country": "US",
     "wof:created": 1651854230,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -84,9 +98,10 @@
       102530049,
       102527513,
       1159284583,
-      1745882143
+      1745882143,
+      1159289411
     ],
-    "wof:lastmodified": 1651854230,
+    "wof:lastmodified": 1651854558,
     "wof:name": "B61982 (SFO-EWR)",
     "wof:parent_id": 1745882143,
     "wof:placetype": "custom",

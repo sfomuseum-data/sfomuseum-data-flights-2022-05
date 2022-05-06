@@ -2,10 +2,12 @@
   "id": 1763663749,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-05",
+    "date:cessation_upper": "2022-05-05",
     "date:inception_lower": "2022-05-05",
     "date:inception_upper": "2022-05-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-05",
+    "edtf:cessation": "2022-05-05T03:17:11-07:00",
+    "edtf:inception": "2022-05-05T15:36:00Z",
     "flysfo:actual_timestamp": 1651771500,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N518AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22180893"
+    },
     "wof:country": "US",
     "wof:created": 1651853214,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763663749,
     "wof:involves": [
+      1159289871,
       102527513,
       102533269,
       1159283813,
       1745882097
     ],
-    "wof:lastmodified": 1651853214,
+    "wof:lastmodified": 1651854564,
     "wof:name": "AS766 (SEA-SFO)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "custom",
