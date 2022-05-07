@@ -2,10 +2,12 @@
   "id": 1763673859,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2022-05-06",
     "date:inception_upper": "2022-05-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-06",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2022-05-06T16:32:50-07:00",
     "flysfo:actual_timestamp": 1651903920,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-05-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "A321",
     "icao:airline": "ACA",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CFGKZ",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +91,13 @@
     ],
     "wof:id": 1763673859,
     "wof:involves": [
+      1745882409,
+      1159289411,
       102555091,
       102527513,
-      1159283597,
-      1745882409
+      1159283597
     ],
-    "wof:lastmodified": 1651940137,
+    "wof:lastmodified": 1651940793,
     "wof:name": "AC746 (SFO-YYZ)",
     "wof:parent_id": 1745882409,
     "wof:placetype": "custom",

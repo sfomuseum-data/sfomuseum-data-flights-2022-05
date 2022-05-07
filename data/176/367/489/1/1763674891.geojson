@@ -2,10 +2,12 @@
   "id": 1763674891,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-06",
+    "date:cessation_upper": "2022-05-06",
     "date:inception_lower": "2022-05-06",
     "date:inception_upper": "2022-05-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-06",
+    "edtf:cessation": "2022-05-06T17:02:16Z",
+    "edtf:inception": "2022-05-06T06:29:00Z",
     "flysfo:actual_timestamp": 1651878000,
     "flysfo:airline": "FJ",
     "flysfo:date": "2022-05-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.61799,
     "geom:longitude": -122.370943,
     "iata:airline": "FJ",
+    "icao:aircraft": "A333",
     "icao:airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289423,
     "sfomuseum:airline_id": 1159283717,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "22249361"
+    },
     "wof:country": "US",
     "wof:created": 1651940454,
     "wof:geomhash": "f780d59ec1f4d1acb53d14db45159ea5",
@@ -45,12 +55,11 @@
     ],
     "wof:id": 1763674891,
     "wof:involves": [
+      1159289423,
       102527513,
-      102527513,
-      1159283717,
-      -1
+      1159283717
     ],
-    "wof:lastmodified": 1651940454,
+    "wof:lastmodified": 1651940803,
     "wof:name": "FJ871 (SFO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

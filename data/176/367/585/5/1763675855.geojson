@@ -2,10 +2,12 @@
   "id": 1763675855,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-07",
+    "date:cessation_upper": "2022-05-07",
     "date:inception_lower": "2022-05-06",
     "date:inception_upper": "2022-05-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-06",
+    "edtf:cessation": "2022-05-07T00:53:00Z",
+    "edtf:inception": "2022-05-06T22:58:00Z",
     "flysfo:actual_timestamp": 1651878000,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N77014",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "22382519",
+      "swim:gufi": "KO76463600"
+    },
     "wof:country": "US",
     "wof:created": 1651940691,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -48,9 +61,9 @@
       102531189,
       102527513,
       1159285413,
-      -1
+      1159289985
     ],
-    "wof:lastmodified": 1651940691,
+    "wof:lastmodified": 1651940797,
     "wof:name": "UA2743 (SFO-DEN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

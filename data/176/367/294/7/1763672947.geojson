@@ -2,10 +2,12 @@
   "id": 1763672947,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-06",
+    "date:cessation_upper": "2022-05-06",
     "date:inception_lower": "2022-05-06",
     "date:inception_upper": "2022-05-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-06",
+    "edtf:cessation": "2022-05-06T07:37:28-07:00",
+    "edtf:inception": "2022-05-06T20:29:00Z",
     "flysfo:actual_timestamp": 1651873320,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7213045,
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533591,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N896UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22313559",
+      "swim:gufi": "KL65271600"
+    },
     "wof:country": "US",
     "wof:created": 1651939909,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763672947,
     "wof:involves": [
+      1159289407,
       102527513,
       102533591,
       1159285413,
       1745882301
     ],
-    "wof:lastmodified": 1651939909,
+    "wof:lastmodified": 1651940790,
     "wof:name": "UA2155 (PSP-SFO)",
     "wof:parent_id": 1745882301,
     "wof:placetype": "custom",

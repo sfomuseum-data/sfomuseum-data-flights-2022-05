@@ -2,10 +2,12 @@
   "id": 1763672893,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-07",
+    "date:cessation_upper": "2022-05-07",
     "date:inception_lower": "2022-05-06",
     "date:inception_upper": "2022-05-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-06",
+    "edtf:cessation": "2022-05-06T23:40:20-07:00",
+    "edtf:inception": "2022-05-06T22:32:00Z",
     "flysfo:actual_timestamp": 1651893780,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.799764500000002,
     "geom:longitude": -140.859366,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528943,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N79521",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22252780",
+      "swim:gufi": "KO06514700"
+    },
     "wof:country": "US",
     "wof:created": 1651939896,
     "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763672893,
     "wof:involves": [
+      1745882285,
+      1159289871,
       102527513,
       102528943,
-      1159285413,
-      1745882285
+      1159285413
     ],
-    "wof:lastmodified": 1651939896,
+    "wof:lastmodified": 1651940790,
     "wof:name": "UA1746 (LIH-SFO)",
     "wof:parent_id": 1745882285,
     "wof:placetype": "custom",

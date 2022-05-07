@@ -2,10 +2,12 @@
   "id": 1763672833,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-06",
+    "date:cessation_upper": "2022-05-06",
     "date:inception_lower": "2022-05-06",
     "date:inception_upper": "2022-05-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-06",
+    "edtf:cessation": "2022-05-06T00:34:27-07:00",
+    "edtf:inception": "2022-05-06T12:46:00Z",
     "flysfo:actual_timestamp": 1651847880,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N896UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22264733",
+      "swim:gufi": "KS30797600"
+    },
     "wof:country": "US",
     "wof:created": 1651939881,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763672833,
     "wof:involves": [
+      1159289407,
       102527513,
       102533269,
       1159285413,
       1745882113
     ],
-    "wof:lastmodified": 1651939881,
+    "wof:lastmodified": 1651940789,
     "wof:name": "UA1263 (SEA-SFO)",
     "wof:parent_id": 1745882113,
     "wof:placetype": "custom",
