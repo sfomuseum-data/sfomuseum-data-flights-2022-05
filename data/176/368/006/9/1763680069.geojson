@@ -2,10 +2,12 @@
   "id": 1763680069,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-07",
+    "date:cessation_upper": "2022-05-07",
     "date:inception_lower": "2022-05-07",
     "date:inception_upper": "2022-05-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-07",
+    "edtf:cessation": "2022-05-07T02:03:41-07:00",
+    "edtf:inception": "2022-05-07T11:48:00Z",
     "flysfo:actual_timestamp": 1651939680,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536579,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N824UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22357036",
+      "swim:gufi": "KL28588700"
+    },
     "wof:country": "US",
     "wof:created": 1652026405,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763680069,
     "wof:involves": [
+      1159289407,
       102527513,
       102536579,
       1159285413,
       1745882429
     ],
-    "wof:lastmodified": 1652026405,
+    "wof:lastmodified": 1652027155,
     "wof:name": "UA820 (MEX-SFO)",
     "wof:parent_id": 1745882429,
     "wof:placetype": "custom",

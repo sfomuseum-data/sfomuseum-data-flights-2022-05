@@ -2,10 +2,12 @@
   "id": 1763681125,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-07",
+    "date:cessation_upper": "2022-05-07",
     "date:inception_lower": "2022-05-07",
     "date:inception_upper": "2022-05-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-07",
+    "edtf:cessation": "2022-05-07T15:24:41Z",
+    "edtf:inception": "2022-05-07T00:44:58-07:00",
     "flysfo:actual_timestamp": 1651933620,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N423AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22371877"
+    },
     "wof:country": "US",
     "wof:created": 1652026705,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763681125,
     "wof:involves": [
+      1377564285,
       102533795,
       102527513,
       1159283813,
       1745882095
     ],
-    "wof:lastmodified": 1652026705,
+    "wof:lastmodified": 1652027159,
     "wof:name": "AS214 (SFO-LAX)",
     "wof:parent_id": 1745882095,
     "wof:placetype": "custom",

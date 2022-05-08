@@ -2,10 +2,12 @@
   "id": 1763680103,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-07",
+    "date:cessation_upper": "2022-05-07",
     "date:inception_lower": "2022-05-07",
     "date:inception_upper": "2022-05-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-07",
+    "edtf:cessation": "2022-05-07T13:37:27-07:00",
+    "edtf:inception": "2022-05-07T15:49:00Z",
     "flysfo:actual_timestamp": 1651981440,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.781954,
     "geom:longitude": -57.5518295,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102549057,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27965",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22377755"
+    },
     "wof:country": "US",
     "wof:created": 1652026413,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763680103,
     "wof:involves": [
+      1159293215,
       102527513,
       102549057,
       1159285413,
       1745882405
     ],
-    "wof:lastmodified": 1652026413,
+    "wof:lastmodified": 1652027155,
     "wof:name": "UA927 (FRA-SFO)",
     "wof:parent_id": 1745882405,
     "wof:placetype": "custom",

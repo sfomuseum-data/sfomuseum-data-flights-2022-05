@@ -2,10 +2,12 @@
   "id": 1763682769,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-08",
+    "date:cessation_upper": "2022-05-08",
     "date:inception_lower": "2022-05-07",
     "date:inception_upper": "2022-05-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-07",
+    "edtf:cessation": "2022-05-08T00:06:00Z",
+    "edtf:inception": "2022-05-07T06:36:55-07:00",
     "flysfo:actual_timestamp": 1651954440,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536579,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N802UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22404225"
+    },
     "wof:country": "US",
     "wof:created": 1652027111,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763682769,
     "wof:involves": [
+      1745882429,
+      1159289407,
       102536579,
       102527513,
-      1159285413,
-      1745882429
+      1159285413
     ],
-    "wof:lastmodified": 1652027111,
+    "wof:lastmodified": 1652027170,
     "wof:name": "UA821 (SFO-MEX)",
     "wof:parent_id": 1745882429,
     "wof:placetype": "custom",

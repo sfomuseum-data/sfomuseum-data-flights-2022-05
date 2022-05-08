@@ -2,10 +2,12 @@
   "id": 1763682559,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-07",
+    "date:cessation_upper": "2022-05-07",
     "date:inception_lower": "2022-05-07",
     "date:inception_upper": "2022-05-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-07",
+    "edtf:cessation": "2022-05-07T23:29:00Z",
+    "edtf:inception": "2022-05-07T04:06:55-07:00",
     "flysfo:actual_timestamp": 1651945860,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.799764500000002,
     "geom:longitude": -140.859366,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528943,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76516",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22391022",
+      "swim:gufi": "KO53755700"
+    },
     "wof:country": "US",
     "wof:created": 1652027058,
     "wof:geomhash": "a2498fe603884edb23014f03e0e3c121",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763682559,
     "wof:involves": [
+      1159289871,
       102528943,
       102527513,
       1159285413,
       1745882291
     ],
-    "wof:lastmodified": 1652027058,
+    "wof:lastmodified": 1652027168,
     "wof:name": "UA440 (SFO-LIH)",
     "wof:parent_id": 1745882291,
     "wof:placetype": "custom",

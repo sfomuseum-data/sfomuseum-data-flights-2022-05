@@ -2,10 +2,12 @@
   "id": 1763681839,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-08",
+    "date:cessation_upper": "2022-05-08",
     "date:inception_lower": "2022-05-07",
     "date:inception_upper": "2022-05-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-07",
+    "edtf:cessation": "2022-05-08T09:38:35Z",
+    "edtf:inception": "2022-05-07T04:42:00Z",
     "flysfo:actual_timestamp": 1651984080,
     "flysfo:airline": "B6",
     "flysfo:date": "2022-05-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "B6",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N977JE",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22346303"
+    },
     "wof:country": "US",
     "wof:created": 1652026881,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763681839,
     "wof:involves": [
+      1159289411,
       102530741,
       102527513,
       1159284583,
       1745882143
     ],
-    "wof:lastmodified": 1652026881,
+    "wof:lastmodified": 1652027163,
     "wof:name": "B6834 (SFO-BOS)",
     "wof:parent_id": 1745882143,
     "wof:placetype": "custom",

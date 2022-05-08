@@ -2,10 +2,12 @@
   "id": 1763682377,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-07",
+    "date:cessation_upper": "2022-05-07",
     "date:inception_lower": "2022-05-07",
     "date:inception_upper": "2022-05-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-07",
+    "edtf:cessation": "2022-05-07T07:28:27Z",
+    "edtf:inception": "2022-05-07T16:26:31-07:00",
     "flysfo:actual_timestamp": 1651989540,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N837UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22348320",
+      "swim:gufi": "KO12116700"
+    },
     "wof:country": "US",
     "wof:created": 1652027013,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763682377,
     "wof:involves": [
+      1159289407,
       102533927,
       102527513,
       1159285413,
       1745882255
     ],
-    "wof:lastmodified": 1652027013,
+    "wof:lastmodified": 1652027166,
     "wof:name": "UA1649 (SFO-EUG)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",

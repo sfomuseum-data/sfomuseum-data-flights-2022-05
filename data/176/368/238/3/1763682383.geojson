@@ -2,10 +2,12 @@
   "id": 1763682383,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-07",
-    "date:inception_upper": "2022-05-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-07",
+    "date:cessation_lower": "2022-05-07",
+    "date:cessation_upper": "2022-05-07",
+    "date:inception_lower": "2022-05-08",
+    "date:inception_upper": "2022-05-08",
+    "edtf:cessation": "2022-05-07T11:53:00Z",
+    "edtf:inception": "2022-05-07T17:26:32-07:00",
     "flysfo:actual_timestamp": 1651964400,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2645U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22349142",
+      "swim:gufi": "KO13118700"
+    },
     "wof:country": "US",
     "wof:created": 1652027014,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763682383,
     "wof:involves": [
+      1159289993,
       102530049,
       102527513,
       1159285413,
       1745882273
     ],
-    "wof:lastmodified": 1652027014,
+    "wof:lastmodified": 1652027166,
     "wof:name": "UA1666 (SFO-EWR)",
     "wof:parent_id": 1745882273,
     "wof:placetype": "custom",
