@@ -2,10 +2,12 @@
   "id": 1763688073,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-08",
+    "date:cessation_upper": "2022-05-08",
     "date:inception_lower": "2022-05-08",
     "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "edtf:cessation": "2022-05-08T21:55:51Z",
+    "edtf:inception": "2022-05-08T16:50:00Z",
     "flysfo:actual_timestamp": 1652026440,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-05-08",
@@ -21,6 +23,7 @@
     "geom:latitude": 41.539997,
     "geom:longitude": -98.057846,
     "iata:airline": "AC",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
@@ -34,6 +37,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CGMYU",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22458464"
+    },
     "wof:country": "US",
     "wof:created": 1652112989,
     "wof:geomhash": "60b8ec845b4af47518c8aaafc3d98633",
@@ -86,7 +98,7 @@
       1159283597,
       1745882409
     ],
-    "wof:lastmodified": 1652112989,
+    "wof:lastmodified": 1652113612,
     "wof:name": "AC758 (SFO-YUL)",
     "wof:parent_id": 1745882409,
     "wof:placetype": "custom",

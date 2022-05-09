@@ -2,10 +2,12 @@
   "id": 1763690061,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-08",
+    "date:cessation_upper": "2022-05-08",
     "date:inception_lower": "2022-05-08",
     "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "edtf:cessation": "2022-05-08T18:49:50Z",
+    "edtf:inception": "2022-05-08T03:49:26-07:00",
     "flysfo:actual_timestamp": 1652031240,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37522",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22467353",
+      "swim:gufi": "KO46615100"
+    },
     "wof:country": "US",
     "wof:created": 1652113511,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763690061,
     "wof:involves": [
+      1745882281,
+      1528104577,
       102527209,
       102527513,
-      1159285413,
-      1745882281
+      1159285413
     ],
-    "wof:lastmodified": 1652113511,
+    "wof:lastmodified": 1652113604,
     "wof:name": "UA358 (SFO-LAS)",
     "wof:parent_id": 1745882281,
     "wof:placetype": "custom",

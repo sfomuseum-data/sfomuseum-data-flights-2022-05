@@ -2,10 +2,12 @@
   "id": 1763688791,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-08",
-    "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "date:cessation_lower": "2022-05-09",
+    "date:cessation_upper": "2022-05-09",
+    "date:inception_lower": "2022-05-09",
+    "date:inception_upper": "2022-05-09",
+    "edtf:cessation": "2022-05-09T03:53:00Z",
+    "edtf:inception": "2022-05-09T02:38:00Z",
     "flysfo:actual_timestamp": 1652062440,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-08",
@@ -21,6 +23,7 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
@@ -34,6 +37,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N308DU",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -86,7 +94,7 @@
       1159284261,
       1745882201
     ],
-    "wof:lastmodified": 1652113171,
+    "wof:lastmodified": 1652113622,
     "wof:name": "DL2276 (SFO-SLC)",
     "wof:parent_id": 1745882201,
     "wof:placetype": "custom",

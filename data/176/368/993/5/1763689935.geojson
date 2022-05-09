@@ -2,10 +2,12 @@
   "id": 1763689935,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-08",
+    "date:cessation_upper": "2022-05-08",
     "date:inception_lower": "2022-05-08",
     "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "edtf:cessation": "2022-05-08T20:57:00Z",
+    "edtf:inception": "2022-05-08T18:09:00Z",
     "flysfo:actual_timestamp": 1652032020,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.260825,
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N878UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22467596",
+      "swim:gufi": "KO54110100"
+    },
     "wof:country": "US",
     "wof:created": 1652113480,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -84,9 +97,10 @@
       102528541,
       102527513,
       1159285413,
-      1745882301
+      1745882301,
+      1159289407
     ],
-    "wof:lastmodified": 1652113480,
+    "wof:lastmodified": 1652113616,
     "wof:name": "UA1883 (SFO-DFW)",
     "wof:parent_id": 1745882301,
     "wof:placetype": "custom",

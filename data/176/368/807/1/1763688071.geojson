@@ -2,10 +2,12 @@
   "id": 1763688071,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-08",
-    "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "date:cessation_lower": "2022-05-09",
+    "date:cessation_upper": "2022-05-09",
+    "date:inception_lower": "2022-05-09",
+    "date:inception_upper": "2022-05-09",
+    "edtf:cessation": "2022-05-09T11:06:00Z",
+    "edtf:inception": "2022-05-08T17:09:57-07:00",
     "flysfo:actual_timestamp": 1652078280,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-05-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "A321",
     "icao:airline": "ACA",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CGJWI",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO10312200"
+    },
     "wof:country": "US",
     "wof:created": 1652112989,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763688071,
     "wof:involves": [
+      1159289411,
       102555091,
       102527513,
       1159283597,
       1745882409
     ],
-    "wof:lastmodified": 1652112989,
+    "wof:lastmodified": 1652113622,
     "wof:name": "AC746 (SFO-YYZ)",
     "wof:parent_id": 1745882409,
     "wof:placetype": "custom",

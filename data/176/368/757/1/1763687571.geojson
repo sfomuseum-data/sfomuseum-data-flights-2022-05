@@ -2,10 +2,12 @@
   "id": 1763687571,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-08",
+    "date:cessation_upper": "2022-05-08",
     "date:inception_lower": "2022-05-08",
     "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "edtf:cessation": "2022-05-08T04:48:24-07:00",
+    "edtf:inception": "2022-05-08T16:23:00Z",
     "flysfo:actual_timestamp": 1652036220,
     "flysfo:airline": "WS",
     "flysfo:date": "2022-05-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.368758,
     "geom:longitude": -118.1959315,
     "iata:airline": "WS",
+    "icao:aircraft": "B38M",
     "icao:airline": "WJA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102554947,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CFRYV",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22462072",
+      "swim:gufi": "KS56690100"
+    },
     "wof:country": "US",
     "wof:created": 1652112862,
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763687571,
     "wof:involves": [
+      1528104575,
       102527513,
       102554947,
       1159285523,
       1745882373
     ],
-    "wof:lastmodified": 1652112862,
+    "wof:lastmodified": 1652113622,
     "wof:name": "WS1508 (YYC-SFO)",
     "wof:parent_id": 1745882373,
     "wof:placetype": "custom",

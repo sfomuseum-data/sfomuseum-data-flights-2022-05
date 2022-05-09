@@ -2,10 +2,12 @@
   "id": 1763685565,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-08",
+    "date:cessation_upper": "2022-05-08",
     "date:inception_lower": "2022-05-08",
     "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "edtf:cessation": "2022-05-08T23:59:00Z",
+    "edtf:inception": "2022-05-08T20:40:00Z",
     "flysfo:actual_timestamp": 1652054520,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-08",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22482225"
+    },
     "wof:country": "US",
     "wof:created": 1652112341,
     "wof:geomhash": "57b2b594ef41523ab9fe7c26d147f9bd",
@@ -86,7 +91,7 @@
       1159283813,
       1745882375
     ],
-    "wof:lastmodified": 1652112341,
+    "wof:lastmodified": 1652113617,
     "wof:name": "AS1279 (SJD-SFO)",
     "wof:parent_id": 1745882375,
     "wof:placetype": "custom",

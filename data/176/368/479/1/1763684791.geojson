@@ -2,10 +2,12 @@
   "id": 1763684791,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-08",
+    "date:cessation_upper": "2022-05-08",
     "date:inception_lower": "2022-05-08",
     "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "edtf:cessation": "2022-05-08T13:30:51-07:00",
+    "edtf:inception": "2022-05-08T22:54:00Z",
     "flysfo:actual_timestamp": 1652067360,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-05-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "AA",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N832NN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22489775",
+      "swim:gufi": "KG75624100"
+    },
     "wof:country": "US",
     "wof:created": 1652112107,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763684791,
     "wof:involves": [
+      1159289871,
       102527513,
       102533631,
       1159283849,
       1745882169
     ],
-    "wof:lastmodified": 1652112107,
+    "wof:lastmodified": 1652113604,
     "wof:name": "AA2828 (ORD-SFO)",
     "wof:parent_id": 1745882169,
     "wof:placetype": "custom",

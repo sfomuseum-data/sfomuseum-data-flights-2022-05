@@ -2,10 +2,12 @@
   "id": 1763687625,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-09",
+    "date:cessation_upper": "2022-05-09",
     "date:inception_lower": "2022-05-08",
     "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "edtf:cessation": "2022-05-09T09:54:03Z",
+    "edtf:inception": "2022-05-08T15:45:27-07:00",
     "flysfo:actual_timestamp": 1652073420,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-05-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419367,
     "geom:longitude": -101.65686,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528659,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N979UY",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO13737200"
+    },
     "wof:country": "US",
     "wof:created": 1652112875,
     "wof:geomhash": "6d7202e034534315a50103622977ef57",
@@ -84,9 +96,10 @@
       102528659,
       102527513,
       1159283849,
-      1745882185
+      1745882185,
+      1159289411
     ],
-    "wof:lastmodified": 1652112875,
+    "wof:lastmodified": 1652113611,
     "wof:name": "AA1783 (SFO-CLT)",
     "wof:parent_id": 1745882185,
     "wof:placetype": "custom",

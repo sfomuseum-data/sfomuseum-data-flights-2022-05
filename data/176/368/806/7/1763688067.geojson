@@ -2,10 +2,12 @@
   "id": 1763688067,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-08",
+    "date:cessation_upper": "2022-05-08",
     "date:inception_lower": "2022-05-08",
     "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "edtf:cessation": "2022-05-08T23:57:03Z",
+    "edtf:inception": "2022-05-08T20:05:00Z",
     "flysfo:actual_timestamp": 1652038800,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-05-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "B788",
     "icao:airline": "ACA",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CGHQQ",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22473358"
+    },
     "wof:country": "US",
     "wof:created": 1652112988,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -84,9 +97,10 @@
       102555091,
       102527513,
       1159283597,
-      1745882419
+      1745882419,
+      1159289995
     ],
-    "wof:lastmodified": 1652112988,
+    "wof:lastmodified": 1652113612,
     "wof:name": "AC740 (SFO-YYZ)",
     "wof:parent_id": 1745882419,
     "wof:placetype": "custom",

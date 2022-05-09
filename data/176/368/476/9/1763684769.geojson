@@ -2,10 +2,12 @@
   "id": 1763684769,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-08",
+    "date:cessation_upper": "2022-05-08",
     "date:inception_lower": "2022-05-08",
     "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "edtf:cessation": "2022-05-08T06:09:26-07:00",
+    "edtf:inception": "2022-05-08T16:33:00Z",
     "flysfo:actual_timestamp": 1652041320,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-05-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.260825,
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528541,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N927UW",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22462068",
+      "swim:gufi": "KF53785100"
+    },
     "wof:country": "US",
     "wof:created": 1652112101,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763684769,
     "wof:involves": [
-      102527513,
       102528541,
       1159283849,
-      1745882193
+      1745882193,
+      1159289411,
+      102527513
     ],
-    "wof:lastmodified": 1652112101,
+    "wof:lastmodified": 1652113604,
     "wof:name": "AA2023 (DFW-SFO)",
     "wof:parent_id": 1745882193,
     "wof:placetype": "custom",

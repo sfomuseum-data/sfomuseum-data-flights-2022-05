@@ -2,10 +2,12 @@
   "id": 1763686901,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-08",
+    "date:cessation_upper": "2022-05-08",
     "date:inception_lower": "2022-05-08",
     "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "edtf:cessation": "2022-05-08T05:05:12-07:00",
+    "edtf:inception": "2022-05-08T18:01:00Z",
     "flysfo:actual_timestamp": 1652036940,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-05-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 1746879083,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N468WN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22466558"
+    },
     "wof:country": "US",
     "wof:created": 1652112683,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763686901,
     "wof:involves": [
+      1745882151,
+      1159289869,
       102527513,
       1746879083,
-      1159285591,
-      1745882151
+      1159285591
     ],
-    "wof:lastmodified": 1652112683,
+    "wof:lastmodified": 1652113621,
     "wof:name": "WN237 (BUR-SFO)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "custom",

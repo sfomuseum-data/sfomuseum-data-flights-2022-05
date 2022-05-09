@@ -2,10 +2,12 @@
   "id": 1763688431,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-08",
+    "date:cessation_upper": "2022-05-08",
     "date:inception_lower": "2022-05-08",
     "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "edtf:cessation": "2022-05-08T16:44:33Z",
+    "edtf:inception": "2022-05-08T15:12:00Z",
     "flysfo:actual_timestamp": 1652021760,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N847VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22455745"
+    },
     "wof:country": "US",
     "wof:created": 1652113082,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -84,9 +97,10 @@
       102533269,
       102527513,
       1159283813,
-      1745882101
+      1745882101,
+      1159292085
     ],
-    "wof:lastmodified": 1652113082,
+    "wof:lastmodified": 1652113622,
     "wof:name": "AS119 (SFO-SEA)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763689983,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-09",
+    "date:cessation_upper": "2022-05-09",
     "date:inception_lower": "2022-05-08",
     "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "edtf:cessation": "2022-05-09T07:24:58Z",
+    "edtf:inception": "2022-05-08T16:28:07-07:00",
     "flysfo:actual_timestamp": 1652076420,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.9938205,
     "geom:longitude": -122.6226995,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527187,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76516",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO11997200"
+    },
     "wof:country": "US",
     "wof:created": 1652113492,
     "wof:geomhash": "3d19e2486afc236330c096bb1f630ba3",
@@ -84,9 +96,10 @@
       102527187,
       102527513,
       1159285413,
-      1745882309
+      1745882309,
+      1159289871
     ],
-    "wof:lastmodified": 1652113492,
+    "wof:lastmodified": 1652113616,
     "wof:name": "UA2150 (SFO-MFR)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "custom",

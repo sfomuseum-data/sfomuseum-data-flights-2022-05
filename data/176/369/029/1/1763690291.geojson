@@ -2,10 +2,12 @@
   "id": 1763690291,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-08",
-    "date:inception_upper": "2022-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-08",
+    "date:cessation_lower": "2022-05-09",
+    "date:cessation_upper": "2022-05-09",
+    "date:inception_lower": "2022-05-09",
+    "date:inception_upper": "2022-05-09",
+    "edtf:cessation": "2022-05-09T15:46:00Z",
+    "edtf:inception": "2022-05-09T02:42:00Z",
     "flysfo:actual_timestamp": 1652050800,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.61799,
     "geom:longitude": -122.370943,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N2135U",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "22483812",
+      "swim:gufi": "KO64017100"
+    },
     "wof:country": "US",
     "wof:created": 1652113567,
     "wof:geomhash": "f780d59ec1f4d1acb53d14db45159ea5",
@@ -45,12 +57,11 @@
     ],
     "wof:id": 1763690291,
     "wof:involves": [
-      102527513,
-      102527513,
       1159285413,
-      -1
+      1159289993,
+      102527513
     ],
-    "wof:lastmodified": 1652113567,
+    "wof:lastmodified": 1652113606,
     "wof:name": "UA871 (SFO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
