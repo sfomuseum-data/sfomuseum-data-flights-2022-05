@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1651542000,
     "flysfo:timestamp": 1651543020,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,37.617990,-112.013056,41.195556",
+    "geom:latitude": 39.406773,
+    "geom:longitude": -117.19199950000001,
     "iata:airline": "AC",
     "iata:base_airline": "UA",
     "icao:airline": "ACA",
@@ -29,7 +29,7 @@
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
     "sfomuseum:airline_id": 1159283597,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102530087,
     "sfomuseum:base_flight_id": "20220502-D-UAL-5590",
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20220502-D-ACA-3697",
@@ -55,7 +55,7 @@
     ],
     "wof:country": "US",
     "wof:created": 1651594467,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "52ce66779270ea3a42f714f88bd6039b",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -92,7 +92,7 @@
       1745882257,
       1159285413
     ],
-    "wof:lastmodified": 1651594467,
+    "wof:lastmodified": 1652117929,
     "wof:name": "AC3697 (SFO-OGD)",
     "wof:parent_id": 1745882257,
     "wof:placetype": "custom",
@@ -103,9 +103,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
-    37.61799
+    37.61799,
+    -112.013056,
+    41.195556
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-112.013056,41.195556]],"type":"MultiPoint"}
 }

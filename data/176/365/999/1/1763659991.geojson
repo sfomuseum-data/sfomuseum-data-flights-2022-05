@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1651685940,
     "flysfo:timestamp": 1651686480,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,36.126387,-86.676652,37.617990",
+    "geom:latitude": 36.8721885,
+    "geom:longitude": -104.5237975,
     "iata:airline": "UA",
     "icao:aircraft": "A319",
     "icao:airline": "UAL",
@@ -64,7 +64,7 @@
     },
     "wof:country": "US",
     "wof:created": 1651767958,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "36f645f844d4838b633d7fed3f06d4a5",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -101,7 +101,7 @@
       1159285413,
       1745882301
     ],
-    "wof:lastmodified": 1651768093,
+    "wof:lastmodified": 1652117930,
     "wof:name": "UA2291 (SFO-BNA)",
     "wof:parent_id": 1745882301,
     "wof:placetype": "custom",
@@ -112,9 +112,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
+    36.126387,
+    -86.676652,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-86.676652,36.126387]],"type":"MultiPoint"}
 }
