@@ -1,0 +1,69 @@
+{
+  "id": 1763697597,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-05-09",
+    "date:inception_upper": "2022-05-09",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-05-09",
+    "flysfo:actual_timestamp": 1652137200,
+    "flysfo:airline": "B6",
+    "flysfo:date": "2022-05-09",
+    "flysfo:estimated_timestamp": 1652154960,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "B6482",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-EWR",
+    "flysfo:scheduled_timestamp": 1652154960,
+    "flysfo:timestamp": 1652154960,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-74.177526,40.691243",
+    "geom:latitude": 39.1546165,
+    "geom:longitude": -98.2742345,
+    "iata:airline": "B6",
+    "icao:airline": "JBU",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284583,
+    "sfomuseum:arrival_id": 102530049,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20220509-D-JBU-482",
+    "sfomuseum:flight_number": [
+      "JBU482",
+      "B6482"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1652199649,
+    "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1763697597
+      }
+    ],
+    "wof:id": 1763697597,
+    "wof:involves": [
+      102530049,
+      102527513,
+      1159284583,
+      -1
+    ],
+    "wof:lastmodified": 1652199649,
+    "wof:name": "B6482 (SFO-EWR)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -74.177526,
+    40.691243
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-74.177526,40.691243]],"type":"MultiPoint"}
+}
