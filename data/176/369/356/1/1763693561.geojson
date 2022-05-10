@@ -2,10 +2,12 @@
   "id": 1763693561,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-10",
+    "date:cessation_upper": "2022-05-10",
     "date:inception_lower": "2022-05-09",
     "date:inception_upper": "2022-05-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-09",
+    "edtf:cessation": "2022-05-10T03:44:00Z",
+    "edtf:inception": "2022-05-09T22:26:00Z",
     "flysfo:actual_timestamp": 1652154600,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-05-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "B789",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555091,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "CFRSE",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1763693561,
     "wof:involves": [
+      1159293215,
       102527513,
       102555091,
       1159283597,
       1763588445
     ],
-    "wof:lastmodified": 1652198626,
+    "wof:lastmodified": 1652199953,
     "wof:name": "AC743 (YYZ-SFO)",
     "wof:parent_id": 1763588445,
     "wof:placetype": "custom",

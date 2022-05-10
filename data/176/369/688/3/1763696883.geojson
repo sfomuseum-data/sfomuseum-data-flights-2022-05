@@ -2,10 +2,12 @@
   "id": 1763696883,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-09",
+    "date:cessation_upper": "2022-05-09",
     "date:inception_lower": "2022-05-09",
     "date:inception_upper": "2022-05-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-09",
+    "edtf:cessation": "2022-05-09T15:12:00Z",
+    "edtf:inception": "2022-05-09T13:50:00Z",
     "flysfo:actual_timestamp": 1652103180,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N630VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22525076"
+    },
     "wof:country": "US",
     "wof:created": 1652199474,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763696883,
     "wof:involves": [
-      102532251,
-      102527513,
       1159283813,
-      1745882101
+      1745882101,
+      1159292085,
+      102532251,
+      102527513
     ],
-    "wof:lastmodified": 1652199474,
+    "wof:lastmodified": 1652199947,
     "wof:name": "AS270 (SFO-PDX)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "custom",
