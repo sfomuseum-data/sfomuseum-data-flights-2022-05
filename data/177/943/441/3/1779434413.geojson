@@ -2,10 +2,12 @@
   "id": 1779434413,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-10",
+    "date:cessation_upper": "2022-05-10",
     "date:inception_lower": "2022-05-10",
     "date:inception_upper": "2022-05-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-10",
+    "edtf:cessation": "2022-05-10T18:01:00Z",
+    "edtf:inception": "2022-05-10T16:42:00Z",
     "flysfo:actual_timestamp": 1652199720,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N87512",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22622905",
+      "swim:gufi": "KO50225300"
+    },
     "wof:country": "US",
     "wof:created": 1652286280,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -84,9 +98,10 @@
       102527363,
       102527513,
       1159285413,
-      1763588347
+      1763588347,
+      1159289871
     ],
-    "wof:lastmodified": 1652286280,
+    "wof:lastmodified": 1652286435,
     "wof:name": "UA1109 (SFO-SLC)",
     "wof:parent_id": 1763588347,
     "wof:placetype": "custom",

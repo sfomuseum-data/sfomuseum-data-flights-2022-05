@@ -2,10 +2,12 @@
   "id": 1763701777,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-10",
+    "date:cessation_upper": "2022-05-10",
     "date:inception_lower": "2022-05-10",
     "date:inception_upper": "2022-05-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-10",
+    "edtf:cessation": "2022-05-10T01:58:55-07:00",
+    "edtf:inception": "2022-05-10T14:16:00Z",
     "flysfo:actual_timestamp": 1652198700,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527363,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N3730B",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22609319",
+      "swim:gufi": "KU47760300"
+    },
     "wof:country": "US",
     "wof:created": 1652285270,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763701777,
     "wof:involves": [
-      102527513,
-      102527363,
       1159284261,
-      1763588243
+      1763588243,
+      1159289871,
+      102527513,
+      102527363
     ],
-    "wof:lastmodified": 1652285270,
+    "wof:lastmodified": 1652286438,
     "wof:name": "DL1311 (SLC-SFO)",
     "wof:parent_id": 1763588243,
     "wof:placetype": "custom",
