@@ -2,10 +2,12 @@
   "id": 1779440591,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-12",
+    "date:cessation_upper": "2022-05-12",
     "date:inception_lower": "2022-05-11",
     "date:inception_upper": "2022-05-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-11",
+    "edtf:cessation": "2022-05-11T22:38:35-07:00",
+    "edtf:inception": "2022-05-11T08:33:00Z",
     "flysfo:actual_timestamp": 1652275500,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N78448",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22677958",
+      "swim:gufi": "KO42459400"
+    },
     "wof:country": "US",
     "wof:created": 1652371949,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779440591,
     "wof:involves": [
-      102527513,
       102533997,
       1159285413,
-      1763588315
+      1763588315,
+      1377564285,
+      102527513
     ],
-    "wof:lastmodified": 1652371949,
+    "wof:lastmodified": 1652372743,
     "wof:name": "UA396 (HNL-SFO)",
     "wof:parent_id": 1763588315,
     "wof:placetype": "custom",

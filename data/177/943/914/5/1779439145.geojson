@@ -2,10 +2,12 @@
   "id": 1779439145,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-12",
+    "date:cessation_upper": "2022-05-12",
     "date:inception_lower": "2022-05-11",
     "date:inception_upper": "2022-05-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-11",
+    "edtf:cessation": "2022-05-12T04:31:06Z",
+    "edtf:inception": "2022-05-11T23:40:00Z",
     "flysfo:actual_timestamp": 1652310000,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532929,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N512AS",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "22744060"
+    },
     "wof:country": "US",
     "wof:created": 1652371577,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1779439145,
     "wof:involves": [
+      1159289871,
       102527513,
       102532929,
-      1159283813,
-      -1
+      1159283813
     ],
-    "wof:lastmodified": 1652371577,
+    "wof:lastmodified": 1652372745,
     "wof:name": "AS9801 (OGG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

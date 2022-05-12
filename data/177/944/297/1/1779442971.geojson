@@ -2,10 +2,12 @@
   "id": 1779442971,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-12",
+    "date:cessation_upper": "2022-05-12",
     "date:inception_lower": "2022-05-11",
     "date:inception_upper": "2022-05-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-11",
+    "edtf:cessation": "2022-05-12T00:38:00Z",
+    "edtf:inception": "2022-05-11T23:08:00Z",
     "flysfo:actual_timestamp": 1652309880,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-05-11",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22746746"
+    },
     "wof:country": "US",
     "wof:created": 1652372549,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -86,7 +91,7 @@
       1159285591,
       1763588193
     ],
-    "wof:lastmodified": 1652372549,
+    "wof:lastmodified": 1652372754,
     "wof:name": "WN1894 (SFO-PHX)",
     "wof:parent_id": 1763588193,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1779438291,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-11",
+    "date:cessation_upper": "2022-05-11",
     "date:inception_lower": "2022-05-11",
     "date:inception_upper": "2022-05-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-11",
+    "edtf:cessation": "2022-05-11T22:07:55Z",
+    "edtf:inception": "2022-05-11T11:50:00Z",
     "flysfo:actual_timestamp": 1652307900,
     "flysfo:airline": "OZ",
     "flysfo:date": "2022-05-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.535978,
     "geom:longitude": 2.1453445,
     "iata:airline": "OZ",
+    "icao:aircraft": "A359",
     "icao:airline": "AAR",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159283917,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102556451,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "HL8308",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22686543"
+    },
     "wof:country": "US",
     "wof:created": 1652371322,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1779438291,
     "wof:involves": [
+      1377564293,
       102527513,
       102556451,
       1159283917,
       1763588455
     ],
-    "wof:lastmodified": 1652371322,
+    "wof:lastmodified": 1652372739,
     "wof:name": "OZ212 (ICN-SFO)",
     "wof:parent_id": 1763588455,
     "wof:placetype": "custom",
