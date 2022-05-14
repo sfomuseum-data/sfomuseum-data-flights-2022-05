@@ -2,10 +2,12 @@
   "id": 1779459605,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-13",
+    "date:cessation_upper": "2022-05-13",
     "date:inception_lower": "2022-05-13",
     "date:inception_upper": "2022-05-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-13",
+    "edtf:cessation": "2022-05-13T21:31:00Z",
+    "edtf:inception": "2022-05-13T17:51:00Z",
     "flysfo:actual_timestamp": 1652463360,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536579,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N481UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22917493",
+      "swim:gufi": "KO48593600"
+    },
     "wof:country": "US",
     "wof:created": 1652545560,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
@@ -84,9 +98,10 @@
       102536579,
       102527513,
       1159285413,
-      1763588289
+      1763588289,
+      1159292085
     ],
-    "wof:lastmodified": 1652545560,
+    "wof:lastmodified": 1652545725,
     "wof:name": "UA1271 (SFO-MEX)",
     "wof:parent_id": 1763588289,
     "wof:placetype": "custom",

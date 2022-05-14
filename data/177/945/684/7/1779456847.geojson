@@ -2,10 +2,12 @@
   "id": 1779456847,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-13",
+    "date:cessation_upper": "2022-05-13",
     "date:inception_lower": "2022-05-13",
     "date:inception_upper": "2022-05-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-13",
+    "edtf:cessation": "2022-05-13T14:45:00Z",
+    "edtf:inception": "2022-05-13T13:44:00Z",
     "flysfo:actual_timestamp": 1652453760,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533575,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N461UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "22890452",
+      "swim:gufi": "KL42017600"
+    },
     "wof:country": "US",
     "wof:created": 1652544721,
     "wof:geomhash": "094b2380067f0814bdd38962ab53e3d3",
@@ -84,9 +98,10 @@
       102527513,
       102533575,
       1159285413,
-      1763588283
+      1763588283,
+      1159292085
     ],
-    "wof:lastmodified": 1652544721,
+    "wof:lastmodified": 1652545719,
     "wof:name": "UA1757 (ONT-SFO)",
     "wof:parent_id": 1763588283,
     "wof:placetype": "custom",

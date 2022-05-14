@@ -2,10 +2,12 @@
   "id": 1779458213,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-13",
+    "date:cessation_upper": "2022-05-13",
     "date:inception_lower": "2022-05-13",
     "date:inception_upper": "2022-05-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-13",
+    "edtf:cessation": "2022-05-13T05:56:29Z",
+    "edtf:inception": "2022-05-13T04:33:00Z",
     "flysfo:actual_timestamp": 1652482800,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-13",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "22866647"
+    },
     "wof:country": "US",
     "wof:created": 1652545190,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -50,7 +55,7 @@
       1159283813,
       -1
     ],
-    "wof:lastmodified": 1652545190,
+    "wof:lastmodified": 1652545732,
     "wof:name": "AS207 (SFO-PDX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
