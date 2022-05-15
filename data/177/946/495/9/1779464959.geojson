@@ -2,10 +2,12 @@
   "id": 1779464959,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-14",
+    "date:cessation_upper": "2022-05-14",
     "date:inception_lower": "2022-05-14",
     "date:inception_upper": "2022-05-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-14",
+    "edtf:cessation": "2022-05-14T23:06:35Z",
+    "edtf:inception": "2022-05-14T20:30:00Z",
     "flysfo:actual_timestamp": 1652559420,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 30.389476000000002,
     "geom:longitude": -116.044202,
     "iata:airline": "AS",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102536441,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N928VA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1779464959,
     "wof:involves": [
+      1377564297,
       102536441,
       102527513,
       1159283813,
       1763588141
     ],
-    "wof:lastmodified": 1652631542,
+    "wof:lastmodified": 1652631993,
     "wof:name": "AS387 (SFO-SJD)",
     "wof:parent_id": 1763588141,
     "wof:placetype": "custom",

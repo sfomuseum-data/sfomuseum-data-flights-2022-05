@@ -2,10 +2,12 @@
   "id": 1779465245,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-14",
+    "date:cessation_upper": "2022-05-14",
     "date:inception_lower": "2022-05-14",
     "date:inception_upper": "2022-05-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-14",
+    "edtf:cessation": "2022-05-14T22:54:00Z",
+    "edtf:inception": "2022-05-14T19:20:00Z",
     "flysfo:actual_timestamp": 1652569200,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.333439999999996,
     "geom:longitude": -106.1764705,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527185,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N662DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "23021022",
+      "swim:gufi": "KO65471700"
+    },
     "wof:country": "US",
     "wof:created": 1652631617,
     "wof:geomhash": "c0d6b7b15085f29a6d4be92b4dd147bf",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1779465245,
     "wof:involves": [
+      1159289939,
       102527185,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1652631617,
+    "wof:lastmodified": 1652631994,
     "wof:name": "DL8930 (SFO-MEM)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

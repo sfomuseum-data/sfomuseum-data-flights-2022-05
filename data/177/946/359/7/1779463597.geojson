@@ -2,10 +2,12 @@
   "id": 1779463597,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-14",
+    "date:cessation_upper": "2022-05-14",
     "date:inception_lower": "2022-05-14",
     "date:inception_upper": "2022-05-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-14",
+    "edtf:cessation": "2022-05-14T19:45:00Z",
+    "edtf:inception": "2022-05-14T15:52:00Z",
     "flysfo:actual_timestamp": 1652569200,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B773",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104579,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -35,6 +39,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "23048667"
+    },
     "wof:country": "US",
     "wof:created": 1652631168,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -45,12 +52,12 @@
     ],
     "wof:id": 1779463597,
     "wof:involves": [
+      1528104579,
       102527513,
       102533631,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1652631168,
+    "wof:lastmodified": 1652631990,
     "wof:name": "UA3031 (ORD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
