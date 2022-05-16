@@ -2,10 +2,12 @@
   "id": 1779472383,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-15",
+    "date:cessation_upper": "2022-05-15",
     "date:inception_lower": "2022-05-15",
     "date:inception_upper": "2022-05-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-15",
+    "edtf:cessation": "2022-05-15T07:01:39Z",
+    "edtf:inception": "2022-05-15T05:56:00Z",
     "flysfo:actual_timestamp": 1652655600,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-15",
@@ -48,6 +50,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23057078"
+    },
     "wof:country": "US",
     "wof:created": 1652718358,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -86,7 +91,7 @@
       1159285413,
       1763588357
     ],
-    "wof:lastmodified": 1652718358,
+    "wof:lastmodified": 1652718482,
     "wof:name": "UA2366 (SFO-LAS)",
     "wof:parent_id": 1763588357,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1779468523,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-15",
+    "date:cessation_upper": "2022-05-15",
     "date:inception_lower": "2022-05-15",
     "date:inception_upper": "2022-05-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-15",
+    "edtf:cessation": "2022-05-15T14:13:10-07:00",
+    "edtf:inception": "2022-05-15T17:29:00Z",
     "flysfo:actual_timestamp": 1652675100,
     "flysfo:airline": "BF",
     "flysfo:date": "2022-05-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.1736525,
     "geom:longitude": -60.0024065,
     "iata:airline": "BF",
+    "icao:aircraft": "A359",
     "icao:airline": "FBU",
     "lbl:latitude": 37.61227,
     "lbl:longitude": -122.390079,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1377649073,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102544453,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "FHREN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23176928"
+    },
     "wof:country": "US",
     "wof:created": 1652717299,
     "wof:geomhash": "ccdcde8e2753acf4845b350f07bc56a7",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779468523,
     "wof:involves": [
+      1377564293,
       102527513,
       102544453,
       1377649073,
       1763588431
     ],
-    "wof:lastmodified": 1652717299,
+    "wof:lastmodified": 1652718476,
     "wof:name": "BF710 (ORY-SFO)",
     "wof:parent_id": 1763588431,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1779472127,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-16",
+    "date:cessation_upper": "2022-05-16",
     "date:inception_lower": "2022-05-15",
     "date:inception_upper": "2022-05-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-15",
+    "edtf:cessation": "2022-05-16T02:20:21Z",
+    "edtf:inception": "2022-05-15T21:22:00Z",
     "flysfo:actual_timestamp": 1652655600,
     "flysfo:airline": "TA",
     "flysfo:date": "2022-05-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 25.5313695,
     "geom:longitude": -105.7147545,
     "iata:airline": "TA",
+    "icao:aircraft": "A320",
     "icao:airline": "TAI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285255,
     "sfomuseum:arrival_id": 102556081,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N490TA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "23174581"
+    },
     "wof:country": "US",
     "wof:created": 1652718294,
     "wof:geomhash": "5e2e6299deb3a59dda4e65fa5b8c6ddb",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1779472127,
     "wof:involves": [
+      1159292085,
       102556081,
       102527513,
-      1159285255,
-      -1
+      1159285255
     ],
-    "wof:lastmodified": 1652718294,
+    "wof:lastmodified": 1652718479,
     "wof:name": "TA9953 (SFO-SAL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

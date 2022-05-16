@@ -2,10 +2,12 @@
   "id": 1779469805,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-15",
-    "date:inception_upper": "2022-05-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-15",
+    "date:cessation_lower": "2022-05-15",
+    "date:cessation_upper": "2022-05-15",
+    "date:inception_lower": "2022-05-16",
+    "date:inception_upper": "2022-05-16",
+    "edtf:cessation": "2022-05-15T15:46:04-07:00",
+    "edtf:inception": "2022-05-16T00:10:00Z",
     "flysfo:actual_timestamp": 1652680260,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536579,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N463UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL14506200"
+    },
     "wof:country": "US",
     "wof:created": 1652717627,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779469805,
     "wof:involves": [
+      1159292085,
       102527513,
       102536579,
       1159285413,
       1763588427
     ],
-    "wof:lastmodified": 1652717627,
+    "wof:lastmodified": 1652718488,
     "wof:name": "UA832 (MEX-SFO)",
     "wof:parent_id": 1763588427,
     "wof:placetype": "custom",
