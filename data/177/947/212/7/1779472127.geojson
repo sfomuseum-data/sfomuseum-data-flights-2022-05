@@ -1,0 +1,69 @@
+{
+  "id": 1779472127,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-05-15",
+    "date:inception_upper": "2022-05-15",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-05-15",
+    "flysfo:actual_timestamp": 1652655600,
+    "flysfo:airline": "TA",
+    "flysfo:date": "2022-05-15",
+    "flysfo:estimated_timestamp": 1652649720,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "TA9953",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-SAL",
+    "flysfo:scheduled_timestamp": 1652644800,
+    "flysfo:timestamp": 1652655600,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,13.444749,-89.058566,37.617990",
+    "geom:latitude": 25.5313695,
+    "geom:longitude": -105.7147545,
+    "iata:airline": "TA",
+    "icao:airline": "TAI",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285255,
+    "sfomuseum:arrival_id": 102556081,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20220515-D-TAI-9953",
+    "sfomuseum:flight_number": [
+      "TAI9953",
+      "TA9953"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1652718294,
+    "wof:geomhash": "5e2e6299deb3a59dda4e65fa5b8c6ddb",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1779472127
+      }
+    ],
+    "wof:id": 1779472127,
+    "wof:involves": [
+      102556081,
+      102527513,
+      1159285255,
+      -1
+    ],
+    "wof:lastmodified": 1652718294,
+    "wof:name": "TA9953 (SFO-SAL)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    13.444749,
+    -89.058566,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-89.058566,13.444749]],"type":"MultiPoint"}
+}
