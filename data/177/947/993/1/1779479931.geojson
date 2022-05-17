@@ -2,10 +2,12 @@
   "id": 1779479931,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-17",
+    "date:cessation_upper": "2022-05-17",
     "date:inception_lower": "2022-05-16",
     "date:inception_upper": "2022-05-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-16",
+    "edtf:cessation": "2022-05-17T00:28:00Z",
+    "edtf:inception": "2022-05-16T23:30:00Z",
     "flysfo:actual_timestamp": 1652743080,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N428UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23207102",
+      "swim:gufi": "KO72126200"
+    },
     "wof:country": "US",
     "wof:created": 1652804760,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -84,9 +97,10 @@
       102533795,
       102527513,
       1159285413,
-      1763588329
+      1763588329,
+      1159292085
     ],
-    "wof:lastmodified": 1652804760,
+    "wof:lastmodified": 1652804908,
     "wof:name": "UA2014 (SFO-LAX)",
     "wof:parent_id": 1763588329,
     "wof:placetype": "custom",

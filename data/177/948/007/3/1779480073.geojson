@@ -2,10 +2,12 @@
   "id": 1779480073,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-16",
+    "date:cessation_upper": "2022-05-16",
     "date:inception_lower": "2022-05-16",
     "date:inception_upper": "2022-05-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-16",
+    "edtf:cessation": "2022-05-16T15:45:00Z",
+    "edtf:inception": "2022-05-16T13:43:00Z",
     "flysfo:actual_timestamp": 1652707680,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N73275",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23155471",
+      "swim:gufi": "KO41600200"
+    },
     "wof:country": "US",
     "wof:created": 1652804796,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -84,9 +98,10 @@
       102531189,
       102527513,
       1159285413,
-      1763588339
+      1763588339,
+      1159289871
     ],
-    "wof:lastmodified": 1652804796,
+    "wof:lastmodified": 1652804889,
     "wof:name": "UA513 (SFO-DEN)",
     "wof:parent_id": 1763588339,
     "wof:placetype": "custom",
