@@ -2,10 +2,12 @@
   "id": 1779484951,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-17",
-    "date:inception_upper": "2022-05-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-17",
+    "date:cessation_lower": "2022-05-18",
+    "date:cessation_upper": "2022-05-18",
+    "date:inception_lower": "2022-05-18",
+    "date:inception_upper": "2022-05-18",
+    "edtf:cessation": "2022-05-18T01:44:45Z",
+    "edtf:inception": "2022-05-18T00:16:00Z",
     "flysfo:actual_timestamp": 1652828400,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-17",
@@ -21,6 +23,7 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
@@ -34,7 +37,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N307DU",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "23390536"
+    },
     "wof:country": "US",
     "wof:created": 1652890932,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -50,7 +62,7 @@
       1159284261,
       -1
     ],
-    "wof:lastmodified": 1652890932,
+    "wof:lastmodified": 1652891423,
     "wof:name": "DL9937 (SFO-SLC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

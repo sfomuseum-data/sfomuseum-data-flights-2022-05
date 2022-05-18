@@ -2,10 +2,12 @@
   "id": 1779483037,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-17",
+    "date:cessation_upper": "2022-05-17",
     "date:inception_lower": "2022-05-17",
     "date:inception_upper": "2022-05-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-17",
+    "edtf:cessation": "2022-05-17T00:21:57-07:00",
+    "edtf:inception": "2022-05-17T12:44:00Z",
     "flysfo:actual_timestamp": 1652797500,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N36476",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23237672",
+      "swim:gufi": "KA34709300"
+    },
     "wof:country": "US",
     "wof:created": 1652890433,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -84,9 +98,10 @@
       102527513,
       102526751,
       1159285413,
-      1763588309
+      1763588309,
+      1377564285
     ],
-    "wof:lastmodified": 1652890433,
+    "wof:lastmodified": 1652891408,
     "wof:name": "UA1530 (PHX-SFO)",
     "wof:parent_id": 1763588309,
     "wof:placetype": "custom",

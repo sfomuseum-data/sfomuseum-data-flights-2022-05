@@ -2,10 +2,12 @@
   "id": 1779486103,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-17",
-    "date:inception_upper": "2022-05-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-17",
+    "date:cessation_lower": "2022-05-18",
+    "date:cessation_upper": "2022-05-18",
+    "date:inception_lower": "2022-05-18",
+    "date:inception_upper": "2022-05-18",
+    "edtf:cessation": "2022-05-18T10:27:00Z",
+    "edtf:inception": "2022-05-17T17:21:37-07:00",
     "flysfo:actual_timestamp": 1652828400,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N440UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO18023400"
+    },
     "wof:country": "US",
     "wof:created": 1652891265,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -84,9 +96,10 @@
       102521851,
       102527513,
       1159285413,
-      1763588319
+      1763588319,
+      1159292085
     ],
-    "wof:lastmodified": 1652891265,
+    "wof:lastmodified": 1652891417,
     "wof:name": "UA241 (SFO-AUS)",
     "wof:parent_id": 1763588319,
     "wof:placetype": "custom",

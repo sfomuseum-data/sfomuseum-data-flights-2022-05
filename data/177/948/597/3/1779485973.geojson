@@ -2,10 +2,12 @@
   "id": 1779485973,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-17",
-    "date:inception_upper": "2022-05-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-17",
+    "date:cessation_lower": "2022-05-18",
+    "date:cessation_upper": "2022-05-18",
+    "date:inception_lower": "2022-05-18",
+    "date:inception_upper": "2022-05-18",
+    "edtf:cessation": "2022-05-18T07:21:00Z",
+    "edtf:inception": "2022-05-18T06:25:00Z",
     "flysfo:actual_timestamp": 1652853900,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N494UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23223763",
+      "swim:gufi": "KO11420400"
+    },
     "wof:country": "US",
     "wof:created": 1652891233,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779485973,
     "wof:involves": [
+      1763588283,
+      1159292085,
       102533575,
       102527513,
-      1159285413,
-      1763588283
+      1159285413
     ],
-    "wof:lastmodified": 1652891233,
+    "wof:lastmodified": 1652891416,
     "wof:name": "UA1698 (SFO-ONT)",
     "wof:parent_id": 1763588283,
     "wof:placetype": "custom",

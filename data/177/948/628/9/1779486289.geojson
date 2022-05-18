@@ -2,10 +2,12 @@
   "id": 1779486289,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-18",
+    "date:cessation_upper": "2022-05-18",
     "date:inception_lower": "2022-05-17",
     "date:inception_upper": "2022-05-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-17",
+    "edtf:cessation": "2022-05-18T07:19:00Z",
+    "edtf:inception": "2022-05-17T07:04:28-07:00",
     "flysfo:actual_timestamp": 1652820300,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.781954,
     "geom:longitude": -57.5518295,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102549057,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2644U",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23283993",
+      "swim:gufi": "KO65593300"
+    },
     "wof:country": "US",
     "wof:created": 1652891340,
     "wof:geomhash": "a63fc4dac3cd4064d907a0b9ef33a7bc",
@@ -84,9 +98,10 @@
       102549057,
       102527513,
       1159285413,
-      1763588449
+      1763588449,
+      1159289993
     ],
-    "wof:lastmodified": 1652891340,
+    "wof:lastmodified": 1652891417,
     "wof:name": "UA58 (SFO-FRA)",
     "wof:parent_id": 1763588449,
     "wof:placetype": "custom",
