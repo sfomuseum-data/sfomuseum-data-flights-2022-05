@@ -2,10 +2,12 @@
   "id": 1779492729,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-18",
-    "date:inception_upper": "2022-05-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-18",
+    "date:cessation_lower": "2022-05-18",
+    "date:cessation_upper": "2022-05-18",
+    "date:inception_lower": "2022-05-19",
+    "date:inception_upper": "2022-05-19",
+    "edtf:cessation": "2022-05-18T14:47:40-07:00",
+    "edtf:inception": "2022-05-19T02:48:00Z",
     "flysfo:actual_timestamp": 1652914800,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.333376,
     "geom:longitude": -114.4957645,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529173,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N879UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KA85527400"
+    },
     "wof:country": "US",
     "wof:created": 1652984542,
     "wof:geomhash": "8fe6791c85dc44fbddffd72416ea0024",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1779492729,
     "wof:involves": [
-      102527513,
       102529173,
       1159285413,
-      1763588327
+      1763588327,
+      1159289407,
+      102527513
     ],
-    "wof:lastmodified": 1652984542,
+    "wof:lastmodified": 1652985488,
     "wof:name": "UA237 (ABQ-SFO)",
     "wof:parent_id": 1763588327,
     "wof:placetype": "custom",

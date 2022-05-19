@@ -2,10 +2,12 @@
   "id": 1779490389,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-18",
-    "date:inception_upper": "2022-05-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-18",
+    "date:cessation_lower": "2022-05-18",
+    "date:cessation_upper": "2022-05-18",
+    "date:inception_lower": "2022-05-19",
+    "date:inception_upper": "2022-05-19",
+    "edtf:cessation": "2022-05-18T15:22:46-07:00",
+    "edtf:inception": "2022-05-19T02:09:00Z",
     "flysfo:actual_timestamp": 1652938260,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-05-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.260825,
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528541,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N989AU",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KF02184500"
+    },
     "wof:country": "US",
     "wof:created": 1652983829,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1779490389,
     "wof:involves": [
-      102527513,
-      102528541,
       1159283849,
-      1763588207
+      1763588207,
+      1159289411,
+      102527513,
+      102528541
     ],
-    "wof:lastmodified": 1652983829,
+    "wof:lastmodified": 1652985482,
     "wof:name": "AA2810 (DFW-SFO)",
     "wof:parent_id": 1763588207,
     "wof:placetype": "custom",
