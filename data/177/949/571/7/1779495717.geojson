@@ -17,15 +17,15 @@
     "flysfo:scheduled_timestamp": 1652898600,
     "flysfo:timestamp": 1652914800,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,34.648398,-112.424508,37.617990",
+    "geom:latitude": 36.133194,
+    "geom:longitude": -117.3977255,
     "iata:airline": "UA",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
     "sfomuseum:airline_id": 1159285413,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102525011,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20220518-D-UAL-6969",
     "sfomuseum:flight_number": [
@@ -37,7 +37,7 @@
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1652985423,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "50d1ad48c17cf52f990d29271fabe885",
     "wof:hierarchy": [
       {
         "flight_id": 1779495717
@@ -50,7 +50,7 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1652985423,
+    "wof:lastmodified": 1653086324,
     "wof:name": "UA6969 (SFO-PRC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
@@ -61,9 +61,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
+    34.648398,
+    -112.424508,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-112.424508,34.648398]],"type":"MultiPoint"}
 }
