@@ -2,10 +2,12 @@
   "id": 1779497931,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-19",
+    "date:cessation_upper": "2022-05-19",
     "date:inception_lower": "2022-05-19",
     "date:inception_upper": "2022-05-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-19",
+    "edtf:cessation": "2022-05-19T14:18:46-07:00",
+    "edtf:inception": "2022-05-19T22:48:00Z",
     "flysfo:actual_timestamp": 1653001200,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529403,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N661DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "23483239",
+      "swim:gufi": "KN75661500"
+    },
     "wof:country": "US",
     "wof:created": 1653062944,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1779497931,
     "wof:involves": [
+      1159289939,
       102527513,
       102529403,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1653062944,
+    "wof:lastmodified": 1653064252,
     "wof:name": "DL8885 (PHL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
