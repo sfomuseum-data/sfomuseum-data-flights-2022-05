@@ -2,10 +2,12 @@
   "id": 1779506929,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2022-05-20",
     "date:inception_upper": "2022-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-20",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2022-05-20T15:29:58-07:00",
     "flysfo:actual_timestamp": 1653109740,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N924VA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1779506929,
     "wof:involves": [
+      1763588139,
+      1377564297,
       102534365,
       102527513,
-      1159283813,
-      1763588139
+      1159283813
     ],
-    "wof:lastmodified": 1653149976,
+    "wof:lastmodified": 1653150519,
     "wof:name": "AS188 (SFO-JFK)",
     "wof:parent_id": 1763588139,
     "wof:placetype": "custom",

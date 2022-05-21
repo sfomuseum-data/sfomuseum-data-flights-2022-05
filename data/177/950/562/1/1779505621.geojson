@@ -2,10 +2,12 @@
   "id": 1779505621,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-20",
+    "date:cessation_upper": "2022-05-20",
     "date:inception_lower": "2022-05-20",
     "date:inception_upper": "2022-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-20",
+    "edtf:cessation": "2022-05-20T00:36:42-07:00",
+    "edtf:inception": "2022-05-20T13:31:00Z",
     "flysfo:actual_timestamp": 1653058080,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N37464",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23531639",
+      "swim:gufi": "KL41432600"
+    },
     "wof:country": "US",
     "wof:created": 1653149595,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779505621,
     "wof:involves": [
+      1377564285,
       102527513,
       102528997,
       1159285413,
       1763588285
     ],
-    "wof:lastmodified": 1653149595,
+    "wof:lastmodified": 1653150527,
     "wof:name": "UA2235 (SAN-SFO)",
     "wof:parent_id": 1763588285,
     "wof:placetype": "custom",

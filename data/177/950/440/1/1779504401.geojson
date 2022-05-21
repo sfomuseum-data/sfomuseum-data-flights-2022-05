@@ -2,10 +2,12 @@
   "id": 1779504401,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-20",
+    "date:cessation_upper": "2022-05-20",
     "date:inception_lower": "2022-05-20",
     "date:inception_upper": "2022-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-20",
+    "edtf:cessation": "2022-05-20T16:25:05-07:00",
+    "edtf:inception": "2022-05-20T01:22:00Z",
     "flysfo:actual_timestamp": 1653114660,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525635,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N876DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23499972",
+      "swim:gufi": "KC01081600"
+    },
     "wof:country": "US",
     "wof:created": 1653149247,
     "wof:geomhash": "a23858bb4e93419105e139a22bd92749",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779504401,
     "wof:involves": [
-      102527513,
-      102525635,
       1159284261,
-      1763588237
+      1763588237,
+      1377564285,
+      102527513,
+      102525635
     ],
-    "wof:lastmodified": 1653149247,
+    "wof:lastmodified": 1653150525,
     "wof:name": "DL2314 (DTW-SFO)",
     "wof:parent_id": 1763588237,
     "wof:placetype": "custom",

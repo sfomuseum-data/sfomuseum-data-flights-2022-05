@@ -2,10 +2,12 @@
   "id": 1779507275,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-20",
-    "date:inception_upper": "2022-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-20",
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
+    "date:inception_lower": "2022-05-21",
+    "date:inception_upper": "2022-05-21",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2022-05-20T23:22:09-07:00",
     "flysfo:actual_timestamp": 1653051600,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-20",
@@ -21,6 +23,7 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
@@ -34,6 +37,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N308DU",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -86,7 +93,7 @@
       1159284261,
       1763588245
     ],
-    "wof:lastmodified": 1653150064,
+    "wof:lastmodified": 1653150519,
     "wof:name": "DL2533 (SFO-SLC)",
     "wof:parent_id": 1763588245,
     "wof:placetype": "custom",

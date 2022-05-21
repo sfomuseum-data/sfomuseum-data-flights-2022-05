@@ -2,10 +2,12 @@
   "id": 1779508079,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-20",
+    "date:cessation_upper": "2022-05-20",
     "date:inception_lower": "2022-05-20",
     "date:inception_upper": "2022-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-20",
+    "edtf:cessation": "2022-05-20T03:55:58Z",
+    "edtf:inception": "2022-05-20T01:07:00Z",
     "flysfo:actual_timestamp": 1653087600,
     "flysfo:airline": "SY",
     "flysfo:date": "2022-05-20",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "23496291"
+    },
     "wof:country": "US",
     "wof:created": 1653150263,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -50,7 +55,7 @@
       1159285227,
       -1
     ],
-    "wof:lastmodified": 1653150263,
+    "wof:lastmodified": 1653150521,
     "wof:name": "SY396 (SFO-MSP)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
