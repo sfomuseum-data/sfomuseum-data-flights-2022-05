@@ -2,10 +2,12 @@
   "id": 1779512819,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-22",
+    "date:cessation_upper": "2022-05-22",
     "date:inception_lower": "2022-05-21",
     "date:inception_upper": "2022-05-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-21",
+    "edtf:cessation": "2022-05-22T01:37:25Z",
+    "edtf:inception": "2022-05-21T21:21:00Z",
     "flysfo:actual_timestamp": 1653167340,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102531979,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N472AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23666032"
+    },
     "wof:country": "US",
     "wof:created": 1653236370,
     "wof:geomhash": "24c5d8bcd340273688237ae435bbe348",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779512819,
     "wof:involves": [
+      1763588143,
+      1377564285,
       102531979,
       102527513,
-      1159283813,
-      1763588143
+      1159283813
     ],
-    "wof:lastmodified": 1653236370,
+    "wof:lastmodified": 1653236986,
     "wof:name": "AS1023 (SFO-ANC)",
     "wof:parent_id": 1763588143,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1779509455,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-21",
-    "date:inception_upper": "2022-05-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-21",
+    "date:cessation_lower": "2022-05-21",
+    "date:cessation_upper": "2022-05-21",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2022-05-21T16:09:57-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1653200100,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-05-21",
@@ -21,6 +23,7 @@
     "geom:latitude": 41.539997,
     "geom:longitude": -98.057846,
     "iata:airline": "AC",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
@@ -34,6 +37,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGJYC",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -86,7 +93,7 @@
       1159283597,
       1763588155
     ],
-    "wof:lastmodified": 1653235435,
+    "wof:lastmodified": 1653236972,
     "wof:name": "AC763 (YUL-SFO)",
     "wof:parent_id": 1763588155,
     "wof:placetype": "custom",
