@@ -40,27 +40,27 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [
-      1745882083,
       102527513,
-      1745882401,
       102191575,
       85633793,
       102087579,
       85922583,
       554784711,
       85688637,
-      1745882423,
-      1745882335,
-      102085387
+      102085387,
+      1763588121,
+      1763588433,
+      1763588455,
+      1763588369
     ],
     "wof:country": "US",
     "wof:created": 1652113076,
     "wof:geomhash": "86f41e039827d60bcd1a72801f72cbc2",
     "wof:hierarchy": [
       {
-        "building_id": 1745882083,
+        "building_id": 1763588121,
         "campus_id": 102527513,
-        "concourse_id": 1745882401,
+        "concourse_id": 1763588433,
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
@@ -68,20 +68,20 @@
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
-        "venue_id": 1745882423,
-        "wing_id": 1745882335
+        "venue_id": 1763588455,
+        "wing_id": 1763588369
       },
       {
-        "building_id": 1745882083,
+        "building_id": 1763588121,
         "campus_id": 102527513,
-        "concourse_id": 1745882401,
+        "concourse_id": 1763588433,
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
         "flight_id": 1763688403,
         "region_id": 85688637,
-        "venue_id": 1745882423,
-        "wing_id": 1745882335
+        "venue_id": 1763588455,
+        "wing_id": 1763588369
       }
     ],
     "wof:id": 1763688403,
@@ -92,9 +92,9 @@
       1745882423,
       1159285413
     ],
-    "wof:lastmodified": 1652113076,
+    "wof:lastmodified": 1653095573,
     "wof:name": "NZ9830 (SFO-LHR)",
-    "wof:parent_id": 1745882423,
+    "wof:parent_id": 1763588455,
     "wof:placetype": "custom",
     "wof:placetype_alt": "flight",
     "wof:repo": "sfomuseum-data-flights-2022-05",

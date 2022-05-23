@@ -45,27 +45,27 @@
     ],
     "swim:tail_number": "SERSC",
     "wof:belongsto": [
-      1745882083,
       102527513,
-      1745882401,
       102191575,
       85633793,
       102087579,
       85922583,
       554784711,
       85688637,
-      1745882427,
-      1745882335,
-      102085387
+      102085387,
+      1763588121,
+      1763588433,
+      1763588461,
+      1763588369
     ],
     "wof:country": "US",
     "wof:created": 1651940568,
     "wof:geomhash": "6cbb76e93301e33133b7541a51de6b35",
     "wof:hierarchy": [
       {
-        "building_id": 1745882083,
+        "building_id": 1763588121,
         "campus_id": 102527513,
-        "concourse_id": 1745882401,
+        "concourse_id": 1763588433,
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
@@ -73,20 +73,20 @@
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
-        "venue_id": 1745882427,
-        "wing_id": 1745882335
+        "venue_id": 1763588461,
+        "wing_id": 1763588369
       },
       {
-        "building_id": 1745882083,
+        "building_id": 1763588121,
         "campus_id": 102527513,
-        "concourse_id": 1745882401,
+        "concourse_id": 1763588433,
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
         "flight_id": 1763675353,
         "region_id": 85688637,
-        "venue_id": 1745882427,
-        "wing_id": 1745882335
+        "venue_id": 1763588461,
+        "wing_id": 1763588369
       }
     ],
     "wof:id": 1763675353,
@@ -97,9 +97,9 @@
       1159285129,
       1745882427
     ],
-    "wof:lastmodified": 1651940795,
+    "wof:lastmodified": 1653095551,
     "wof:name": "SK936 (SFO-CPH)",
-    "wof:parent_id": 1745882427,
+    "wof:parent_id": 1763588461,
     "wof:placetype": "custom",
     "wof:placetype_alt": "flight",
     "wof:repo": "sfomuseum-data-flights-2022-05",
