@@ -17,15 +17,15 @@
     "flysfo:scheduled_timestamp": 1653346800,
     "flysfo:timestamp": 1653346800,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,33.372184,-7.581707,37.617990",
+    "geom:latitude": 35.495087,
+    "geom:longitude": -64.976325,
     "iata:airline": "PR",
     "icao:airline": "PAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
     "sfomuseum:airline_id": 1159285015,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102546483,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20220523-D-PAL-123",
     "sfomuseum:flight_number": [
@@ -37,7 +37,7 @@
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1653409496,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "358cf5ba819f0fdf0cfb6dcfee8390aa",
     "wof:hierarchy": [
       {
         "flight_id": 1779526003
@@ -50,7 +50,7 @@
       1159285015,
       -1
     ],
-    "wof:lastmodified": 1653409496,
+    "wof:lastmodified": 1653420649,
     "wof:name": "PR123 (SFO-CMN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
@@ -61,9 +61,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
+    33.372184,
+    -7.581707,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-7.581707,33.372184]],"type":"MultiPoint"}
 }
