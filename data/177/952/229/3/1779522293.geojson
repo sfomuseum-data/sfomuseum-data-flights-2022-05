@@ -2,10 +2,12 @@
   "id": 1779522293,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-24",
+    "date:cessation_upper": "2022-05-24",
     "date:inception_lower": "2022-05-23",
     "date:inception_upper": "2022-05-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-23",
+    "edtf:cessation": "2022-05-24T01:09:25Z",
+    "edtf:inception": "2022-05-23T21:40:00Z",
     "flysfo:actual_timestamp": 1653346800,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.576414,
     "geom:longitude": -110.4218635,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527373,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N855VA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "23820865"
+    },
     "wof:country": "US",
     "wof:created": 1653408438,
     "wof:geomhash": "d45c6baaf0d56697f52acbb8a9e14867",
@@ -45,12 +56,12 @@
     ],
     "wof:id": 1779522293,
     "wof:involves": [
-      102527513,
       102527373,
       1159283813,
-      -1
+      1159292085,
+      102527513
     ],
-    "wof:lastmodified": 1653408438,
+    "wof:lastmodified": 1653409827,
     "wof:name": "AS9531 (SAT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

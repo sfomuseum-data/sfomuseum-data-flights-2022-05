@@ -2,10 +2,12 @@
   "id": 1779522123,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-23",
+    "date:cessation_upper": "2022-05-23",
     "date:inception_lower": "2022-05-23",
     "date:inception_upper": "2022-05-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-23",
+    "edtf:cessation": "2022-05-23T11:18:52-07:00",
+    "edtf:inception": "2022-05-23T21:48:36Z",
     "flysfo:actual_timestamp": 1653355560,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536481,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N516AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23839807"
+    },
     "wof:country": "US",
     "wof:created": 1653408394,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -84,9 +97,10 @@
       102527513,
       102536481,
       1159283813,
-      1763588407
+      1763588407,
+      1159289871
     ],
-    "wof:lastmodified": 1653408394,
+    "wof:lastmodified": 1653409825,
     "wof:name": "AS1273 (PVR-SFO)",
     "wof:parent_id": 1763588407,
     "wof:placetype": "custom",
