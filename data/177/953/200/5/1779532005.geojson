@@ -2,10 +2,12 @@
   "id": 1779532005,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-24",
+    "date:cessation_upper": "2022-05-24",
     "date:inception_lower": "2022-05-24",
     "date:inception_upper": "2022-05-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-24",
+    "edtf:cessation": "2022-05-24T22:10:37Z",
+    "edtf:inception": "2022-05-24T17:17:00Z",
     "flysfo:actual_timestamp": 1653411960,
     "flysfo:airline": "HA",
     "flysfo:date": "2022-05-24",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23903181"
+    },
     "wof:country": "US",
     "wof:created": 1653495774,
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
@@ -86,7 +91,7 @@
       1159284489,
       1763588267
     ],
-    "wof:lastmodified": 1653495774,
+    "wof:lastmodified": 1653496185,
     "wof:name": "HA41 (SFO-OGG)",
     "wof:parent_id": 1763588267,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1779531661,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-25",
+    "date:cessation_upper": "2022-05-25",
     "date:inception_lower": "2022-05-24",
     "date:inception_upper": "2022-05-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-24",
+    "edtf:cessation": "2022-05-25T03:06:00Z",
+    "edtf:inception": "2022-05-24T21:46:00Z",
     "flysfo:actual_timestamp": 1653433200,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N502DX",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23925104",
+      "swim:gufi": "KO71764300"
+    },
     "wof:country": "US",
     "wof:created": 1653495687,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -84,9 +97,10 @@
       102530741,
       102527513,
       1159284261,
-      1763588243
+      1763588243,
+      1377564297
     ],
-    "wof:lastmodified": 1653495687,
+    "wof:lastmodified": 1653496183,
     "wof:name": "DL1708 (SFO-BOS)",
     "wof:parent_id": 1763588243,
     "wof:placetype": "custom",
