@@ -2,10 +2,12 @@
   "id": 1779539473,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-26",
+    "date:cessation_upper": "2022-05-26",
     "date:inception_lower": "2022-05-25",
     "date:inception_upper": "2022-05-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-25",
+    "edtf:cessation": "2022-05-26T02:40:00Z",
+    "edtf:inception": "2022-05-25T23:27:00Z",
     "flysfo:actual_timestamp": 1653520200,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N73256",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24029896",
+      "swim:gufi": "KO80067400"
+    },
     "wof:country": "US",
     "wof:created": 1653582598,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779539473,
     "wof:involves": [
+      1159289871,
       102534097,
       102527513,
       1159285413,
       1763588287
     ],
-    "wof:lastmodified": 1653582598,
+    "wof:lastmodified": 1653582718,
     "wof:name": "UA574 (SFO-IAH)",
     "wof:parent_id": 1763588287,
     "wof:placetype": "custom",

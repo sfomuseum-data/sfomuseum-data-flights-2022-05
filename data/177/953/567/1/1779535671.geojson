@@ -2,10 +2,12 @@
   "id": 1779535671,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-25",
+    "date:cessation_upper": "2022-05-25",
     "date:inception_lower": "2022-05-25",
     "date:inception_upper": "2022-05-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-25",
+    "edtf:cessation": "2022-05-25T23:22:02Z",
+    "edtf:inception": "2022-05-25T12:57:00Z",
     "flysfo:actual_timestamp": 1653519600,
     "flysfo:airline": "KL",
     "flysfo:date": "2022-05-25",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "24068301"
+    },
     "wof:country": "US",
     "wof:created": 1653581500,
     "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
@@ -50,7 +55,7 @@
       1159284613,
       -1
     ],
-    "wof:lastmodified": 1653581500,
+    "wof:lastmodified": 1653582721,
     "wof:name": "KL183 (AMS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1779534719,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-26",
+    "date:cessation_upper": "2022-05-26",
     "date:inception_lower": "2022-05-25",
     "date:inception_upper": "2022-05-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-25",
+    "edtf:cessation": "2022-05-26T03:43:27Z",
+    "edtf:inception": "2022-05-25T23:26:00Z",
     "flysfo:actual_timestamp": 1653537480,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531979,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N407AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1779534719,
     "wof:involves": [
+      1377564285,
       102527513,
       102531979,
       1159283813,
       1763588245
     ],
-    "wof:lastmodified": 1653581230,
+    "wof:lastmodified": 1653582707,
     "wof:name": "AS1038 (ANC-SFO)",
     "wof:parent_id": 1763588245,
     "wof:placetype": "custom",

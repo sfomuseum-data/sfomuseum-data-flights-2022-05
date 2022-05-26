@@ -2,10 +2,12 @@
   "id": 1779538115,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-26",
+    "date:cessation_upper": "2022-05-26",
     "date:inception_lower": "2022-05-25",
     "date:inception_upper": "2022-05-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-25",
+    "edtf:cessation": "2022-05-26T06:23:00Z",
+    "edtf:inception": "2022-05-25T11:25:58-07:00",
     "flysfo:actual_timestamp": 1653519600,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N6710E",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO85264400"
+    },
     "wof:country": "US",
     "wof:created": 1653582151,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -48,9 +61,9 @@
       102534365,
       102527513,
       1159284261,
-      -1
+      1159289939
     ],
-    "wof:lastmodified": 1653582151,
+    "wof:lastmodified": 1653582714,
     "wof:name": "DL8882 (SFO-JFK)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

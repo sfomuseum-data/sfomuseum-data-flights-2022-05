@@ -2,10 +2,12 @@
   "id": 1779539315,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-26",
+    "date:cessation_upper": "2022-05-26",
     "date:inception_lower": "2022-05-25",
     "date:inception_upper": "2022-05-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-25",
+    "edtf:cessation": "2022-05-26T02:31:00Z",
+    "edtf:inception": "2022-05-25T23:15:00Z",
     "flysfo:actual_timestamp": 1653519600,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N36247",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "24049866"
+    },
     "wof:country": "US",
     "wof:created": 1653582558,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -45,12 +56,12 @@
     ],
     "wof:id": 1779539315,
     "wof:involves": [
+      1159289871,
       102534097,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1653582558,
+    "wof:lastmodified": 1653582717,
     "wof:name": "UA2753 (SFO-IAH)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

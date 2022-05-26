@@ -2,10 +2,12 @@
   "id": 1779539379,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-25",
+    "date:cessation_upper": "2022-05-25",
     "date:inception_lower": "2022-05-25",
     "date:inception_upper": "2022-05-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-25",
+    "edtf:cessation": "2022-05-25T11:24:08Z",
+    "edtf:inception": "2022-05-25T06:37:00Z",
     "flysfo:actual_timestamp": 1653544620,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-25",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +53,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "23954934"
+    },
     "wof:country": "US",
     "wof:created": 1653582574,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -86,7 +94,7 @@
       1159285413,
       1763588437
     ],
-    "wof:lastmodified": 1653582574,
+    "wof:lastmodified": 1653582718,
     "wof:name": "UA523 (SFO-EWR)",
     "wof:parent_id": 1763588437,
     "wof:placetype": "custom",
