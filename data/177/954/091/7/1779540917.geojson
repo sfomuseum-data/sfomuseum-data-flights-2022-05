@@ -2,10 +2,12 @@
   "id": 1779540917,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-26",
+    "date:cessation_upper": "2022-05-26",
     "date:inception_lower": "2022-05-26",
     "date:inception_upper": "2022-05-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-26",
+    "edtf:cessation": "2022-05-26T16:36:28Z",
+    "edtf:inception": "2022-05-26T15:44:00Z",
     "flysfo:actual_timestamp": 1653583500,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N929AK",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24081623"
+    },
     "wof:country": "US",
     "wof:created": 1653667730,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779540917,
     "wof:involves": [
+      1528104577,
       102527513,
       102533795,
       1159283813,
       1763588157
     ],
-    "wof:lastmodified": 1653667730,
+    "wof:lastmodified": 1653669217,
     "wof:name": "AS204 (LAX-SFO)",
     "wof:parent_id": 1763588157,
     "wof:placetype": "custom",

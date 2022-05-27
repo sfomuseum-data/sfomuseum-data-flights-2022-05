@@ -2,10 +2,12 @@
   "id": 1779544399,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-26",
+    "date:cessation_upper": "2022-05-26",
     "date:inception_lower": "2022-05-26",
     "date:inception_upper": "2022-05-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-26",
+    "edtf:cessation": "2022-05-26T01:55:16Z",
+    "edtf:inception": "2022-05-26T00:32:00Z",
     "flysfo:actual_timestamp": 1653606000,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-05-26",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "24036309"
+    },
     "wof:country": "US",
     "wof:created": 1653668657,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -50,7 +55,7 @@
       1159284261,
       -1
     ],
-    "wof:lastmodified": 1653668657,
+    "wof:lastmodified": 1653669226,
     "wof:name": "DL1352 (SFO-SLC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

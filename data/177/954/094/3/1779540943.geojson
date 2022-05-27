@@ -2,10 +2,12 @@
   "id": 1779540943,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-05-26",
-    "date:inception_upper": "2022-05-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-26",
+    "date:cessation_lower": "2022-05-26",
+    "date:cessation_upper": "2022-05-26",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2022-05-26T15:20:25-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1653629400,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N841VA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -84,9 +92,10 @@
       102527513,
       102532251,
       1159283813,
-      1763588135
+      1763588135,
+      1159292085
     ],
-    "wof:lastmodified": 1653667737,
+    "wof:lastmodified": 1653669217,
     "wof:name": "AS265 (PDX-SFO)",
     "wof:parent_id": 1763588135,
     "wof:placetype": "custom",
