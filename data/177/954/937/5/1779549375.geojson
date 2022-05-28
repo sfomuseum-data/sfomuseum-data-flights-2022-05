@@ -2,10 +2,12 @@
   "id": 1779549375,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-27",
+    "date:cessation_upper": "2022-05-27",
     "date:inception_lower": "2022-05-27",
     "date:inception_upper": "2022-05-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-27",
+    "edtf:cessation": "2022-05-27T23:17:00Z",
+    "edtf:inception": "2022-05-27T21:08:00Z",
     "flysfo:actual_timestamp": 1653693660,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-05-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.6967075,
     "geom:longitude": -116.76460499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530815,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N830UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24214404",
+      "swim:gufi": "KU70260600"
+    },
     "wof:country": "US",
     "wof:created": 1653754485,
     "wof:geomhash": "acf2ad4ec949b4135a187e5a7cb03262",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779549375,
     "wof:involves": [
+      1159289407,
       102527513,
       102530815,
       1159285413,
       1763588343
     ],
-    "wof:lastmodified": 1653754485,
+    "wof:lastmodified": 1653755490,
     "wof:name": "UA237 (BZN-SFO)",
     "wof:parent_id": 1763588343,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1779550663,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-27",
+    "date:cessation_upper": "2022-05-27",
     "date:inception_lower": "2022-05-27",
     "date:inception_upper": "2022-05-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-27",
+    "edtf:cessation": "2022-05-27T05:02:11Z",
+    "edtf:inception": "2022-05-27T03:29:00Z",
     "flysfo:actual_timestamp": 1653692400,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-27",
@@ -48,6 +50,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24141425"
+    },
     "wof:country": "US",
     "wof:created": 1653754827,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -86,7 +91,7 @@
       1159283813,
       1763588143
     ],
-    "wof:lastmodified": 1653754827,
+    "wof:lastmodified": 1653755474,
     "wof:name": "AS1461 (SFO-SEA)",
     "wof:parent_id": 1763588143,
     "wof:placetype": "custom",
