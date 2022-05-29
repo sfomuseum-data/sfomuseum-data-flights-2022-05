@@ -2,10 +2,12 @@
   "id": 1779553775,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-28",
+    "date:cessation_upper": "2022-05-28",
     "date:inception_lower": "2022-05-28",
     "date:inception_upper": "2022-05-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-28",
+    "edtf:cessation": "2022-05-28T10:15:49-07:00",
+    "edtf:inception": "2022-05-28T22:57:00Z",
     "flysfo:actual_timestamp": 1653783600,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N638VA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24223314"
+    },
     "wof:country": "US",
     "wof:created": 1653840477,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779553775,
     "wof:involves": [
+      1159292085,
       102527513,
       102532251,
       1159283813,
       1763588141
     ],
-    "wof:lastmodified": 1653840477,
+    "wof:lastmodified": 1653841909,
     "wof:name": "AS314 (PDX-SFO)",
     "wof:parent_id": 1763588141,
     "wof:placetype": "custom",
