@@ -1,0 +1,69 @@
+{
+  "id": 1779562997,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-05-29",
+    "date:inception_upper": "2022-05-29",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-05-29",
+    "flysfo:actual_timestamp": 1653857400,
+    "flysfo:airline": "AS",
+    "flysfo:date": "2022-05-29",
+    "flysfo:estimated_timestamp": 1653858840,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AS3348",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-SFO",
+    "flysfo:scheduled_timestamp": 1653860580,
+    "flysfo:timestamp": 1653860580,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-122.370943,37.617990",
+    "geom:latitude": 37.61799,
+    "geom:longitude": -122.370943,
+    "iata:airline": "AS",
+    "icao:airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20220529-D-ASA-3348",
+    "sfomuseum:flight_number": [
+      "ASA3348",
+      "AS3348"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1653927753,
+    "wof:geomhash": "f780d59ec1f4d1acb53d14db45159ea5",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1779562997
+      }
+    ],
+    "wof:id": 1779562997,
+    "wof:involves": [
+      102527513,
+      102527513,
+      1159283813,
+      -1
+    ],
+    "wof:lastmodified": 1653927753,
+    "wof:name": "AS3348 (SFO-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -122.370943,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
