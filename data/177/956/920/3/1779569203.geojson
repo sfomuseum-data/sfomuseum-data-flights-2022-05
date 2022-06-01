@@ -2,10 +2,12 @@
   "id": 1779569203,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-05-31",
+    "date:cessation_upper": "2022-05-31",
     "date:inception_lower": "2022-05-31",
     "date:inception_upper": "2022-05-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-05-31",
+    "edtf:cessation": "2022-05-31T20:09:53Z",
+    "edtf:inception": "2022-05-31T14:50:00Z",
     "flysfo:actual_timestamp": 1654038000,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-05-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.864041,
     "geom:longitude": -101.15226200000001,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527849,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N848VA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "24497596"
+    },
     "wof:country": "US",
     "wof:created": 1654099690,
     "wof:geomhash": "5effdcb6f19e0645c7e31e4e1e42645d",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1779569203,
     "wof:involves": [
-      102527513,
-      102527849,
       1159283813,
-      -1
+      1159292085,
+      102527513,
+      102527849
     ],
-    "wof:lastmodified": 1654099690,
+    "wof:lastmodified": 1654101230,
     "wof:name": "AS9803 (GSO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
