@@ -54,6 +54,7 @@
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
     "wof:hierarchy": [
       {
+        "custom_id": 1763633253,
         "flight_id": 1763633253
       }
     ],
@@ -64,11 +65,13 @@
       1377564285,
       102527513
     ],
-    "wof:lastmodified": 1651508805,
+    "wof:lastmodified": 1717039659,
     "wof:name": "UA2744 (LAX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

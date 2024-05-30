@@ -52,6 +52,7 @@
     "wof:geomhash": "5e2e6299deb3a59dda4e65fa5b8c6ddb",
     "wof:hierarchy": [
       {
+        "custom_id": 1779472127,
         "flight_id": 1779472127
       }
     ],
@@ -62,11 +63,13 @@
       102527513,
       1159285255
     ],
-    "wof:lastmodified": 1652718479,
+    "wof:lastmodified": 1717039663,
     "wof:name": "TA9953 (SFO-SAL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

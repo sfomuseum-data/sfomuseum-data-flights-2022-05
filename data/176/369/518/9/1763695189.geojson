@@ -45,6 +45,7 @@
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
     "wof:hierarchy": [
       {
+        "custom_id": 1763695189,
         "flight_id": 1763695189
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159284583
     ],
-    "wof:lastmodified": 1652199044,
+    "wof:lastmodified": 1717039659,
     "wof:name": "SQ1511 (EWR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

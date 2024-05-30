@@ -53,6 +53,7 @@
     "wof:geomhash": "a1b63305ba93684d4b5beab1220ffb8e",
     "wof:hierarchy": [
       {
+        "custom_id": 1763697157,
         "flight_id": 1763697157
       }
     ],
@@ -63,11 +64,13 @@
       1159284211,
       1528104577
     ],
-    "wof:lastmodified": 1652199947,
+    "wof:lastmodified": 1717039661,
     "wof:name": "CM383 (SFO-PTY)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

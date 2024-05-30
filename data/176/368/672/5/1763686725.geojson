@@ -40,6 +40,7 @@
     "wof:geomhash": "90bd700bbb49763568c2a26183b9158d",
     "wof:hierarchy": [
       {
+        "custom_id": 1763686725,
         "flight_id": 1763686725
       }
     ],
@@ -50,11 +51,13 @@
       1159286153,
       -1
     ],
-    "wof:lastmodified": 1652112637,
+    "wof:lastmodified": 1717039661,
     "wof:name": "QR38 (DOH-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

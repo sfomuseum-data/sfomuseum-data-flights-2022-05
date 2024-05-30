@@ -45,6 +45,7 @@
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
     "wof:hierarchy": [
       {
+        "custom_id": 1763670615,
         "flight_id": 1763670615
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159283813
     ],
-    "wof:lastmodified": 1651939310,
+    "wof:lastmodified": 1717039657,
     "wof:name": "AA7479 (LAS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

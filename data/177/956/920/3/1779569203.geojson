@@ -52,6 +52,7 @@
     "wof:geomhash": "5effdcb6f19e0645c7e31e4e1e42645d",
     "wof:hierarchy": [
       {
+        "custom_id": 1779569203,
         "flight_id": 1779569203
       }
     ],
@@ -62,11 +63,13 @@
       102527513,
       102527849
     ],
-    "wof:lastmodified": 1654101230,
+    "wof:lastmodified": 1717039670,
     "wof:name": "AS9803 (GSO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

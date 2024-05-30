@@ -45,6 +45,7 @@
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
     "wof:hierarchy": [
       {
+        "custom_id": 1779519427,
         "flight_id": 1779519427
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159284583
     ],
-    "wof:lastmodified": 1653322891,
+    "wof:lastmodified": 1717039672,
     "wof:name": "HA2498 (SFO-BOS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

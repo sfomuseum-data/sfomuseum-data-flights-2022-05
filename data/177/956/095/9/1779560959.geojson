@@ -45,6 +45,7 @@
     "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
     "wof:hierarchy": [
       {
+        "custom_id": 1779560959,
         "flight_id": 1779560959
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159285413
     ],
-    "wof:lastmodified": 1653927122,
+    "wof:lastmodified": 1717039666,
     "wof:name": "LO4328 (AMS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

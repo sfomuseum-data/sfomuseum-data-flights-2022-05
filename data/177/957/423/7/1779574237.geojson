@@ -40,6 +40,7 @@
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
     "wof:hierarchy": [
       {
+        "custom_id": 1779574237,
         "flight_id": 1779574237
       }
     ],
@@ -50,11 +51,13 @@
       1360700749,
       -1
     ],
-    "wof:lastmodified": 1654101132,
+    "wof:lastmodified": 1717039672,
     "wof:name": "Y42139 (SFO-LAS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

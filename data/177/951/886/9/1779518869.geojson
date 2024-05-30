@@ -53,6 +53,7 @@
     "wof:geomhash": "3d1812cb234aac8b643ea0201167e576",
     "wof:hierarchy": [
       {
+        "custom_id": 1779518869,
         "flight_id": 1779518869
       }
     ],
@@ -63,11 +64,13 @@
       1159283813,
       1159292085
     ],
-    "wof:lastmodified": 1653323293,
+    "wof:lastmodified": 1717039673,
     "wof:name": "AS9521 (SFO-SAT)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

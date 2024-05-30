@@ -48,6 +48,7 @@
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
     "wof:hierarchy": [
       {
+        "custom_id": 1779561347,
         "flight_id": 1779561347
       }
     ],
@@ -58,11 +59,13 @@
       1159289869,
       102527513
     ],
-    "wof:lastmodified": 1653928337,
+    "wof:lastmodified": 1717039666,
     "wof:name": "WN9020 (BUR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

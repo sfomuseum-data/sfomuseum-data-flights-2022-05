@@ -45,6 +45,7 @@
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
     "wof:hierarchy": [
       {
+        "custom_id": 1779479583,
         "flight_id": 1779479583
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159283813
     ],
-    "wof:lastmodified": 1652804671,
+    "wof:lastmodified": 1717039668,
     "wof:name": "SQ1332 (SFO-LAS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

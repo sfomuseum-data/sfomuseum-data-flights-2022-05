@@ -40,6 +40,7 @@
     "wof:geomhash": "a08c5b1a6c329f228ec453404f254a51",
     "wof:hierarchy": [
       {
+        "custom_id": 1779551105,
         "flight_id": 1779551105
       }
     ],
@@ -50,11 +51,13 @@
       1159284261,
       -1
     ],
-    "wof:lastmodified": 1653754944,
+    "wof:lastmodified": 1717039665,
     "wof:name": "DL8926 (SFO-DAL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

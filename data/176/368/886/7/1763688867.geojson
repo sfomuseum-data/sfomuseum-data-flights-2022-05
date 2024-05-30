@@ -54,6 +54,7 @@
     "wof:geomhash": "02eb21027b428b31b3a49fca7e3fb60f",
     "wof:hierarchy": [
       {
+        "custom_id": 1763688867,
         "flight_id": 1763688867
       }
     ],
@@ -64,11 +65,13 @@
       102527513,
       1159284261
     ],
-    "wof:lastmodified": 1652113613,
+    "wof:lastmodified": 1717039663,
     "wof:name": "DL8840 (SFO-BFI)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

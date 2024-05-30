@@ -49,6 +49,7 @@
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
     "wof:hierarchy": [
       {
+        "custom_id": 1779491651,
         "flight_id": 1779491651
       }
     ],
@@ -59,11 +60,13 @@
       102531189,
       1159284261
     ],
-    "wof:lastmodified": 1652985496,
+    "wof:lastmodified": 1717039664,
     "wof:name": "DL8886 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

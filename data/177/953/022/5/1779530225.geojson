@@ -52,6 +52,7 @@
     "wof:geomhash": "01009f732d03a7803d3f7fd23cf321f4",
     "wof:hierarchy": [
       {
+        "custom_id": 1779530225,
         "flight_id": 1779530225
       }
     ],
@@ -62,11 +63,13 @@
       102534161,
       1159285413
     ],
-    "wof:lastmodified": 1653496177,
+    "wof:lastmodified": 1717039664,
     "wof:name": "UA8116 (SNA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

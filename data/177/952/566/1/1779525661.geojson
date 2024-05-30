@@ -40,6 +40,7 @@
     "wof:geomhash": "60b8ec845b4af47518c8aaafc3d98633",
     "wof:hierarchy": [
       {
+        "custom_id": 1779525661,
         "flight_id": 1779525661
       }
     ],
@@ -50,11 +51,13 @@
       1377649073,
       -1
     ],
-    "wof:lastmodified": 1653409362,
+    "wof:lastmodified": 1717039669,
     "wof:name": "BF123 (SFO-YUL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []

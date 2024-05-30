@@ -53,6 +53,7 @@
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
     "wof:hierarchy": [
       {
+        "custom_id": 1779538115,
         "flight_id": 1779538115
       }
     ],
@@ -63,11 +64,13 @@
       1159284261,
       1159289939
     ],
-    "wof:lastmodified": 1653582714,
+    "wof:lastmodified": 1717039671,
     "wof:name": "DL8882 (SFO-JFK)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-05",
     "wof:superseded_by": [],
     "wof:supersedes": []
